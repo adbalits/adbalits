@@ -84,13 +84,10 @@
                     Hello
                 </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">There</a>
-                    <a href="https://laracasts.com">is</a>
-                    <a href="https://laravel-news.com">much</a>
-                    <a href="https://nova.laravel.com">to</a>
-                    <a href="https://forge.laravel.com">do</a>
+                <div>
+                    #todo write my website
                 </div>
+
             </div>
         </div>
     </body>
