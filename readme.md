@@ -11,4 +11,4 @@ Source for my [adbalits.com](https://adbalits.com/) site
 ==
 
 
-This is kept on [GitHub](https://github.com/sivers/sivers.org) as a public mirror, but it’s not collaborative.
+This is kept on [GitHub](https://github.com/adbalits/adbalits) as a public mirror, but it’s not collaborative.
