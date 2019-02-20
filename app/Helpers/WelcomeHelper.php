@@ -7,7 +7,8 @@ class WelcomeHelper
      */
     public static function greeting()
     {
-        return array_random_elem([
+        $stable = env('HELLO_STABLE', false);
+        $random = array_random_elem([
             'Hello',
             'Bonjour',
             'Hola',
@@ -16,6 +17,10 @@ class WelcomeHelper
             'Ciao',
             'Aloha',
         ]);
+
+        return ($stable)
+            ? 'Привет'
+            : $random;
     }
 
     /**
@@ -23,6 +28,7 @@ class WelcomeHelper
      */
     public static function welcome()
     {
+        $stable = env('HELLO_STABLE', false);
         $originalParts = [
             '#todo',
             'write',
@@ -48,7 +54,9 @@ class WelcomeHelper
         $val4 = $parts->pull($key4);
         $parts->forget($key4);
 
-        return sprintf('%s %s %s %s', $val1, $val2, $val3, $val4);
+        return ($stable)
+            ? '#todo write my website'
+            : sprintf('%s %s %s %s', $val1, $val2, $val3, $val4);
     }
 
     /**
