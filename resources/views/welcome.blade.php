@@ -94,6 +94,8 @@
                         '#todo my website write',
                     ];
 
+                    // the
+
                     $string = array_random_elem($strings);
                 ?>
                 <div>
