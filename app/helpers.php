@@ -8,6 +8,7 @@ if ( ! function_exists('array_random_elem') )
 
         $random_elem = $array[ $random_key ];
 
+        //
         return $random_elem;
     }
 }
