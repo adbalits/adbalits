@@ -44,6 +44,9 @@
 .title
 {
   font-size: 84px;
+  @media screen and (max-width: 768px) {
+    font-size: 42px;
+  }
 }
 
 .links > a
