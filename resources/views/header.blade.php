@@ -17,7 +17,7 @@
         // $css_file = '/css/app.css'; // google chrome wont reload newest versions
         $css_file = sprintf('/css/app.css?v=%s', time()); // chrome will always load
     ?>
-    <link href="{{ asset($css_file) }}" rel="stylesheet">
+    <link type="text/css" href="{{ asset($css_file) }}" rel="stylesheet">
 
     <!-- Styles -->
     <style>
