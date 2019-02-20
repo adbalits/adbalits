@@ -5,13 +5,14 @@
         <div class="flex-center position-ref full-height">
 
             <?php
-                $string = \App\Helpers\WelcomeHelper::welcome();
-                $randomColor = \App\Helpers\WelcomeHelper::color();
+                $string   = \App\Helpers\WelcomeHelper::welcome();
+                $color    = \App\Helpers\WelcomeHelper::color();
+                $greeting = \App\Helpers\WelcomeHelper::greeting();
             ?>
             <div class="content">
 
-                <div class="title m-b-md hello_world" style="color:{{ $randomColor }} ">
-                    Hello
+                <div class="title m-b-md hello_world" style="color:{{ $color }} ">
+                    {{ $greeting }}
                 </div>
 
                 <div>

@@ -5,6 +5,22 @@ class WelcomeHelper
     /**
      * @return string
      */
+    public static function greeting()
+    {
+        return array_random_elem([
+            'Hello',
+            'Bonjour',
+            'Hola',
+            'Привет',
+            'Здравствуйте',
+            'Ciao',
+            'Aloha',
+        ]);
+    }
+
+    /**
+     * @return string
+     */
     public static function welcome()
     {
         $originalParts = [
