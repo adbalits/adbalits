@@ -1,7 +1,8 @@
 <?php
- $secrets = 'foo'; // #todo #cathat this probably needs to be secret/rehashed
+ $googleSecret = env('ADBALITS_GA_SECRET', null);
+ $hasSecret    = ! is_null($googleSecret);
 ?>
-@if(isProductionEnv())
+@if(isProductionEnv() && $hasSecret)
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134837138-1"></script>
 <script>
@@ -9,6 +10,8 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-134837138-1');
+  var ADBALITS_GA_SECRET = "{{ $googleSecret }}";
+
+  gtag('config', ADBALITS_GA_SECRET);
 </script>
 @endif
