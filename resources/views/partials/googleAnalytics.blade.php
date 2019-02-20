@@ -1,3 +1,4 @@
+@if(isProductionEnv())
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134837138-1"></script>
 <script>
@@ -7,3 +8,4 @@
 
   gtag('config', 'UA-134837138-1');
 </script>
+@endif
