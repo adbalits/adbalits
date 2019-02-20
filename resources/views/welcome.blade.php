@@ -12,8 +12,8 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
+                background-color: black;
+                color: white;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
@@ -80,12 +80,24 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
+                <div class="title m-b-md hello_world">
                     Hello
                 </div>
 
+                <?php
+                    $strings = [
+                        '#todo write my website',
+                        '#todo write website my',
+                        '#todo website write my',
+                        '#todo website my write',
+                        '#todo my write website',
+                        '#todo my website write',
+                    ];
+
+                    $string = array_random_elem($strings);
+                ?>
                 <div>
-                    #todo write my website
+                    {{ $string }}
                 </div>
 
             </div>
