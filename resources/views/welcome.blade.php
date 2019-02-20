@@ -85,7 +85,7 @@
                 </div>
 
                 <?php
-                    \App\Helpers\WelcomeHelper::welcomeString();
+                    $string = \App\Helpers\WelcomeHelper::welcomeString();
                 ?>
                 <div>
                     {{ $string }}
