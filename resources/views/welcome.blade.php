@@ -5,9 +5,10 @@
         <div class="flex-center position-ref full-height">
 
             <?php
-                $string   = \App\Helpers\WelcomeHelper::welcome();
-                $color    = \App\Helpers\WelcomeHelper::color();
-                $greeting = \App\Helpers\WelcomeHelper::greeting();
+                $string     = \App\Helpers\WelcomeHelper::welcome();
+                $color      = \App\Helpers\WelcomeHelper::color();
+                $greeting   = \App\Helpers\WelcomeHelper::greeting();
+                $github_url = \AB\Globe::githubUrl();
             ?>
             <div class="content">
 
@@ -20,7 +21,9 @@
                 </div>
 
                 <div class="footer_icons">
-                    <i class="fa fa-github"></i>
+                <a class="github_icon_anchor" href="{{ $github_url }}" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
                 </div>
 
             </div>
