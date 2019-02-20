@@ -10,7 +10,7 @@ if ( ! function_exists('isProductionEnv') )
 
 if ( ! function_exists('isLocalEnv') )
 {
-    function isProductionEnv()
+    function isLocalEnv()
     {
         return env('APP_ENV') === 'local';
     }
