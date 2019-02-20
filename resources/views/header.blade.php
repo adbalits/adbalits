@@ -7,6 +7,10 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
 
+
+    <!-- Analytics (Sorry folks, smart ones block this) -->
+    @include('partials.googleAnalytics')
+
     <!-- Stylesheets -->
     <?php
         // see https://stackoverflow.com/questions/15562384/how-to-force-chrome-browser-to-reload-css-file-while-debugging-in-visual-studio
