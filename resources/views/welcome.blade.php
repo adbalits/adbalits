@@ -85,18 +85,7 @@
                 </div>
 
                 <?php
-                    $strings = [
-                        '#todo write my website',
-                        '#todo write website my',
-                        '#todo website write my',
-                        '#todo website my write',
-                        '#todo my write website',
-                        '#todo my website write',
-                    ];
-
-                    // the
-
-                    $string = array_random_elem($strings);
+                    \App\Helpers\WelcomeHelper::welcomeString();
                 ?>
                 <div>
                     {{ $string }}
