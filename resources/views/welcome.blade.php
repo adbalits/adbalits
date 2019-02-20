@@ -19,6 +19,10 @@
                     {{ $string }}
                 </div>
 
+                <div class="footer_icons">
+                    <i class="fa fa-github"></i>
+                </div>
+
             </div>
         </div>
     </body>

@@ -6,7 +6,8 @@
 @import 'variables';
 
 // Bootstrap
-//@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap/scss/bootstrap';
+@import '~@fortawesome/fortawesome-free/scss/brands';
 
 .navbar-laravel {
   background-color: #fff;
@@ -41,6 +42,15 @@
   text-align: center;
 }
 
+.footer_icons
+{
+    margin-top: 15px;
+}
+.github_icon
+{
+    color: white;
+    font-size: 16px;
+}
 .title
 {
   font-size: 84px;
