@@ -11,7 +11,7 @@ const mix = require('laravel-mix');
  |
  */
 
-var doJavascript = false;
+var doJavascript = true;
 var doSass       = true;
 
 if(doJavascript)

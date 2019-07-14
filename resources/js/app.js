@@ -31,3 +31,47 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app'
 });
+
+const greetings = [
+    'Hello',
+    'Bonjour',
+    'Hola',
+    'Привет',
+    'Здравствуйте',
+    'Ciao',
+    'Aloha',
+];
+
+const colors = {
+    'blue': 'rgb(52,144,220)',
+    'indigo': 'rgb(101,116,205)',
+    'purple': 'rgb(149,97,226)',
+    'pink': 'rgb(246,109,155)',
+    'red': 'rgb(227,52,47)',
+    'orange': 'rgb(246,153,63)',
+    'yellow': 'rgb(255,237,74)',
+    'green': 'rgb(56,193,114)',
+    'teal': 'rgb(77,192,181)',
+    'cyan': 'rgb(108,178,235) '
+};
+
+class MyApp
+{
+    static randomItem(arr) {
+        return arr[Math.floor(Math.random()*arr.length)];
+    }
+
+    static randomColor() {
+        const items = colors;
+        const keys = Object.keys(colors);
+        return items[MyApp.randomItem(keys)]
+    }
+
+    static randomGreeting() {
+        const items = greetings;
+        return MyApp.randomItem(items)
+    }
+
+}
+
+window.myApp = MyApp;

@@ -16,9 +16,9 @@ if ( ! function_exists('isLocalEnv') )
     }
 }
 
-if ( ! function_exists('array_random_elem') )
+if ( ! function_exists('array_random') )
 {
-    function array_random_elem($array)
+    function array_random($array)
     {
         $random_key = array_rand( $array );
 
@@ -26,5 +26,21 @@ if ( ! function_exists('array_random_elem') )
 
         //
         return $random_elem;
+    }
+}
+
+if ( ! function_exists('approuter') )
+{
+    function approuter()
+    {
+        return new \AB\Routes\AppRouter();
+    }
+}
+
+if ( ! function_exists('arty') )
+{
+    function arty()
+    {
+        return new \App\Helpers\Arty();
     }
 }

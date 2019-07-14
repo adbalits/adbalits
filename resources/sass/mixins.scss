@@ -1,0 +1,53 @@
+@mixin dropshadow($top, $left, $spread, $color)
+{
+  -webkit-box-shadow: $top $left $spread $color;
+  -moz-box-shadow:    $top $left $spread $color;
+  box-shadow:         $top $left $spread $color;
+}
+
+@mixin mobile
+{
+  @media screen and (max-width: 768px)
+  {
+    @content;
+  }
+}
+
+
+//
+// Spinning
+//
+@-webkit-keyframes rotate {
+  100% { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes rotate {
+  100% { -moz-transform: rotate(360deg); }
+}
+@keyframes rotate {
+  100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+@mixin spinning($speed, $style)
+{
+  -webkit-animation:rotate $speed $style infinite;
+  -moz-animation:rotate $speed $style infinite;
+  animation:rotate $speed $style infinite;
+}
+
+//
+// Spinning (alt)
+//
+@-webkit-keyframes rotateAlt {
+  100% { -webkit-transform: rotate(-360deg); }
+}
+@-moz-keyframes rotateAlt {
+  100% { -moz-transform: rotate(-360deg); }
+}
+@keyframes rotateAlt {
+  100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); }
+}
+@mixin spinningAlt($speed, $style)
+{
+  -webkit-animation:rotateAlt $speed $style infinite;
+  -moz-animation:rotateAlt $speed $style infinite;
+  animation:rotateAlt $speed $style infinite;
+}

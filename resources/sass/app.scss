@@ -4,6 +4,15 @@
 
 // Variables
 @import 'variables';
+@import 'mixins';
+
+// Custom
+@import 'books';
+@import 'common';
+@import 'footer';
+@import 'nav';
+@import 'notfound';
+@import 'welcome';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
@@ -12,87 +21,21 @@
 @import '~@fortawesome/fontawesome-free/scss/solid';
 @import '~@fortawesome/fontawesome-free/scss/brands';
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
-
-.full-height
+//
+// Everywhere
+//
+.app_container
 {
-  height: 100vh;
-}
-
-.flex-center
-{
-  align-items: center;
   display: flex;
-  justify-content: center;
-}
-
-.position-ref
-{
+  min-height: 100vh;
+  padding-top: 55px;
   position: relative;
+  width: 100%;
 }
-
-.top-right {
-  position: absolute;
-  right: 10px;
-  top: 18px;
-}
-
-.content
+.screen_container
 {
-  text-align: center;
-}
-
-.footer_icons
-{
-    margin-top: 25px;
-}
-.github_icon_anchor
-{
-  color: white;
-  cursor: pointer;
-  font-size: 24px;
-  text-decoration: none;
-  transition: all 0.2s ease;
-  &:hover {
-    color: $blue;
-    text-decoration: none;
-  }
-}
-.github_icon
-{
-    color: white;
-    cursor: pointer;
-    font-size: 24px;
-    text-decoration: none;
-    transition: all 0.2s ease;
-    &:hover {
-      color: $blue;
-      text-decoration: none;
-    }
-}
-.title
-{
-  font-size: 84px;
-  @media screen and (max-width: 768px) {
-    font-size: 42px;
-  }
-}
-
-.links > a
-{
-  color: #636b6f;
-  padding: 0 25px;
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: .1rem;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.m-b-md
-{
-  margin-bottom: 30px;
+  display: flex;
+  flex: 1;
+  position: relative;
+  width: 100%;
 }

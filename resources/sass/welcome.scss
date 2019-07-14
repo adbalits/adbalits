@@ -1,0 +1,125 @@
+.splash_container
+{
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  position: relative;
+//  background-image: radial-gradient(circle closest-side, black, black, rgb(10,0,0,.05), black, black, black, black,rgba(55,55,0,.10), black, rgba(205,0,55, 0.10), black, black, rgba(255,0,28,.16), black, black, rgba(34,87,255, .25), black);
+  background-color: black;
+}
+.splash_wrapper
+{
+  //  background-color: white;
+  transition: all 0.25s ease;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+.splash_inner
+{
+//  background-color: yellow;
+  align-items: center;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  z-index: 1;
+}
+.face_container
+{
+  background-color: black;
+  bottom: 55px;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: absolute;
+  width: 90%;
+  top: 55px;
+  z-index: -0;
+}
+.splash_face
+{
+//  height: 200px;
+//  width: 200px;
+//  border-radius: 100px;
+  height: 250;
+  width: 250px;
+  border-radius: 125px;
+  @include mobile {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+  }
+  opacity: .75;
+  &:hover{
+    opacity:.90;
+  }
+}
+.splash_hello
+{
+  font-size: 90px;
+  line-height: 90px;
+  font-weight: bold;
+  @media screen and (max-width: 768px) {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  opacity: 0.75;
+  &:hover{
+    opacity: .96;
+  }
+}
+.face_img_alt
+{
+  border-radius: 75px;
+  opacity: .75;
+  &:hover{
+    opacity:.9;
+  }
+  @include spinningAlt(10s, linear);
+  margin-bottom: 25px;
+}
+
+#splash_portrait
+{
+  position: absolute;
+  z-index: 0;
+  max-width: 600px;
+  background-color: rgba(52,58,64,0.50); // $bgDark
+  padding: 35px;
+  border: 2px solid rgba(255,255,255,0);
+  border-radius: 5px;
+  width: 50%;
+  @include dropshadow(4px,4px,4px,rgba(255,255,255,.20));
+  @include mobile {
+    opacity: 0;
+  }
+}
+#splash_portrait:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.splash_portrait_inner
+{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left:0;
+  top:0;
+  z-index: -10;
+  display: flex;
+  padding: 15px;
+}
+.splash_portrait_dark
+{
+//  margin: 25px;
+  flex: 1;
+  border-radius: 5px;
+  border-left: 2px solid rgba(255,255,255,.15);
+  border-top: 2px solid rgba(255,255,255,.15);
+  background-color: rgba(0,0,0,.50);
+  z-index: 0;
+}

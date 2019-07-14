@@ -1,0 +1,32 @@
+.footer_icons
+{
+  margin-top: 15px;
+  opacity: 0.75;
+  &:hover{
+    opacity: .90;
+  }
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+.footer_icon_anchor
+{
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  margin-left: 4px;
+  margin-right: 4px;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  opacity: 0.75;
+  &:hover {
+    color: $blue;
+    text-decoration: none;
+  }
+}
+.footer_icon_icon
+{
+  font-size: 35px;
+  &:hover{
+    transform: scale(1.05);
+  }
+}

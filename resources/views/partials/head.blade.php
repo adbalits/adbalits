@@ -2,7 +2,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>adbalits</title>
+    <?php
+        $title = isset($title)
+            ? sprintf('adbalits | %s', $title)
+            : 'adbalits';
+    ?>
+    <title>{{ $title }}</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
@@ -29,6 +34,8 @@
           font-weight: 200;
           height: 100vh;
           margin: 0;
+          padding: 0;
+          width: 100%;
         }
     </style>
 </head>

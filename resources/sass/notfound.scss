@@ -1,0 +1,32 @@
+
+//
+// 404
+//
+.notfound_container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  width: 100%;
+  flex: 1;
+}
+.notfound_h1
+{
+  font-size: 80px;
+  letter-spacing: 100px;
+  margin-bottom:50px;
+//  font-weight: 200;
+  font-weight: bold;
+  text-align: center;
+  opacity:0.5;
+  @media screen and (max-width: 768px) {
+    font-size: 50px;
+    letter-spacing: 35px;
+  }
+}
+.notfound_h5
+{
+  margin-top: 50px;
+  font-size: 2px;
+}
