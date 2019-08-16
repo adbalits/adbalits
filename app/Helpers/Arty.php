@@ -4,5 +4,5 @@ use App\User;
 
 class Arty
 {
-   //
+    //
 }

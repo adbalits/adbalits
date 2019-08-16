@@ -8,9 +8,6 @@
     $url_github = \AB\Globe::githubUrl();
     $url_link   = \AB\Globe::linkedUrl();
     $url_angel  = \AB\Globe::angelUrl();
-
-    $url_about  = approuter()->about()->get();
-    $url_books  = approuter()->books()->get();
 ?>
 
 @if(false)

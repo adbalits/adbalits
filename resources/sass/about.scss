@@ -1,0 +1,8 @@
+.about_container
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-image: radial-gradient(circle closest-side, black, black, black, rgba(255,0,0,.75), black, rgba(255,0,255, 0.50), black, black, black);
+}

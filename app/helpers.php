@@ -29,6 +29,14 @@ if ( ! function_exists('array_random') )
     }
 }
 
+if ( ! function_exists('abbook') )
+{
+    function abbook($id)
+    {
+        return \App\Book::find($id);
+    }
+}
+
 if ( ! function_exists('approuter') )
 {
     function approuter()

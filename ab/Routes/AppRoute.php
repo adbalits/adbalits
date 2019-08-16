@@ -13,13 +13,34 @@ class AppRoute
         $this->params = $params;
     }
 
-    public function get()
+    public function paramStr()
     {
-        return $this->route;
+        $params = $this->params;
+
+        if(is_null($params))
+        {
+            return '';
+        }
+
+        $result = '?';
+        foreach($params as $key => $value)
+        {
+            $result.=sprintf('%s=%s', $key, $value);
+        }
+        return $result;
+    }
+
+    public function route()
+    {
+        $paramStr = $this->paramStr();
+
+        return $this->route.$paramStr;
     }
 
     public function url()
     {
-        return secure_url($this->route);
+        $paramStr = $this->paramStr();
+
+        return secure_url($this->route.$paramStr);
     }
 }

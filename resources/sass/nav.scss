@@ -1,9 +1,11 @@
 #site_navbar
 {
+  background-color: rgb(25,25,25,.9);
+  margin-top: 0;
   position: absolute;
   top: 0px;
   width: 100%;
-  z-index: 1;
+  z-index: 10;
 
   .navbar-collapse
   {

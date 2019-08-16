@@ -6,9 +6,12 @@
 
 @section('content')
 <?php
-    // #todo #cathat #implement about me
-    // #todo #cathat #implement about me
-    // #todo #cathat #implement about me
+    $book   = abbook($book->id);
+    $author = $book->author;
+
+    // #todo #cathat #implement book page
+    // #todo #cathat #implement book page
+    // #todo #cathat #implement book page
 ?>
 <div class="books_container">
 <div class="books_backdrop">
@@ -21,7 +24,7 @@
     </h1>
     <hr class="short_line" />
 
-    <h4>About me</h4>
+    <h4>{{ $author }}</h4>
     <p>
         #todo
     </p>
