@@ -54,8 +54,8 @@ class BookDictionary
             [
                 'title'     => 'Aroused',
                 'subtitle'  => 'The History of Hormones and How They Control Just About Everything',
-                'author'    => '',
-                'rating'    => 0,
+                'author'    => 'Randi Hutter Epstein',
+                'rating'    => 7,
                 'category'  => 'nonfiction',
                 'slug'      => 'aroused',
                 'img_name'  => 'aroused.jpg',
