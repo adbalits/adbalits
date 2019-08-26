@@ -12,7 +12,7 @@
 
     $extraNavStyles = \Request::is('/')
         ? 'background-color: transparent;'
-        : 'background-image: linear-gradient(black, black, black, black, black, rgba(122,122,122,.2));';
+        : 'background-image: linear-gradient(black, black, black, black, black, rgba(122,122,122,.05));';
 ?>
 <nav id="site_navbar" class="navbar navbar-expand-lg navbar-dark" style="{{ $extraNavStyles }}">
 <div class="container">

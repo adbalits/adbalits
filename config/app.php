@@ -175,6 +175,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        // #CUSTOM
+        App\Providers\GlobeProvider::class,
     ],
 
     /*
@@ -223,7 +225,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
+        // #CUSTOM
+        'Globe' => App\Facades\GlobeFacade::class,
     ],
 
 ];

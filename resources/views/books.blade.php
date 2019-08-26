@@ -75,46 +75,46 @@ About
 
 
     <h4>Welcome to my digital bookshelf</h4>
-    <p>
+    <p class="ab_text">
         Here you'll find every book I've read, more or less, along with a rating of 1-10 how strongly I recommend each book.
 
         Some books might be missing from this list, since I only started it a few years back and had to rely on memory for past books I read. For the same reason, some books might be missing dates or ratings or other info.
 
         If you want, try sorting by:
 
-        <a href="{{ $url_sortby_rating }}" class="ab_link_inline">rating</a>,
+        <a href="{{ $url_sortby_rating }}" class="ab_link">rating</a>,
 
-        <a href="{{ $url_sortby_latest }}" class="ab_link_inline">latest</a>,
+        <a href="{{ $url_sortby_latest }}" class="ab_link">latest</a>,
 
-        or <a href="{{ $url_sortby_alpha }}" class="ab_link_inline">alphabetical</a>.
+        or <a href="{{ $url_sortby_alpha }}" class="ab_link">alphabetical</a>.
 
         Or try looking at these categories:
 
-        <a href="{{ $url_cat_biography }}" class="ab_link_inline">biography</a>,
+        <a href="{{ $url_cat_biography }}" class="ab_link">biography</a>,
 
-        <a href="{{ $url_cat_business}}" class="ab_link_inline">business</a>,
+        <a href="{{ $url_cat_business}}" class="ab_link">business</a>,
 
-        <a href="{{ $url_cat_fiction}}" class="ab_link_inline">fiction</a>,
+        <a href="{{ $url_cat_fiction}}" class="ab_link">fiction</a>,
 
-        <a href="{{ $url_cat_foreign}}" class="ab_link_inline">foreign</a>,
+        <a href="{{ $url_cat_foreign}}" class="ab_link">foreign</a>,
 
-        <a href="{{ $url_cat_literature}}" class="ab_link_inline">literature</a>,
+        <a href="{{ $url_cat_literature}}" class="ab_link">literature</a>,
 
-        <a href="{{ $url_cat_nonfic}}" class="ab_link_inline">non-fiction</a>,
+        <a href="{{ $url_cat_nonfic}}" class="ab_link">non-fiction</a>,
 
-        and <a href="{{ $url_cat_theory}}" class="ab_link_inline">theory</a>.
+        and <a href="{{ $url_cat_theory}}" class="ab_link">theory</a>.
     </p>
 
 
     <h4>Raison d'être</h4>
-    <p>
+    <p class="ab_text">
         Do you wonder why this page exists?
 
         A great treasure in my reading life has been thumbing through other digital bookshelves such as
 
-        <a class="ab_link_inline" href="{{ $url_sivers }}" target="_blank">sivers/books</a>,
+        <a class="ab_link" href="{{ $url_sivers }}" target="_blank">sivers/books</a>,
 
-        <a class="ab_link_inline" href="{{ $url_gates }}" target="_blank">gatesnotes</a>,
+        <a class="ab_link" href="{{ $url_gates }}" target="_blank">gatesnotes</a>,
 
         as well as a few others, but primarily those.
 

@@ -49,6 +49,7 @@
         {
           background-color: black;
           color: white;
+          font-size: 1em;
           font-family: 'Nunito', sans-serif;
           font-weight: 200;
           height: 100vh;

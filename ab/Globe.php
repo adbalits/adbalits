@@ -25,4 +25,12 @@ class Globe
     {
         return 'https://www.linkedin.com/in/adbalits/';
     }
+
+    /**
+     * @return string
+     */
+    public static function quoraUrl()
+    {
+        return 'https://www.quora.com/profile/Andrew-Balitsky';
+    }
 }

@@ -25,7 +25,7 @@
     <hr class="short_line" />
 
     <h4>{{ $author }}</h4>
-    <p>
+    <p class="ab_text">
         #todo
     </p>
 </div>
