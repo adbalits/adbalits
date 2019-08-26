@@ -96,9 +96,9 @@
 
     @if(false)
     <?php 
-        #todo #cathat #implement contact 
-        #todo #cathat #implement contact 
-        #todo #cathat #implement contact 
+        // #todo #cathat #implement contact 
+        // #todo #cathat #implement contact 
+        // #todo #cathat #implement contact 
     ?>  
     <h4>Contact</h4>
     <p class="ab_text">
