@@ -18,7 +18,7 @@
 </div>
 
 <div class="container books_page">
-<div class="col-10 offset-1 col-xs-12">
+<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 col-xl-10 offset-sm-1 offset-md-1 offset-lg-1 offset-xl-1">
     <h1>
         {{ $title }}
     </h1>
