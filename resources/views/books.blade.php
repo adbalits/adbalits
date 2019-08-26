@@ -172,7 +172,7 @@ About
     </div>
     @endforeach
 
-    <hr style="margin-top: 15px; border-color:rgba(255,255,255,.15); margin-bottom: 15px;"/>
+    <hr class="ab_endpage" />
 
     <h4>Quotes</h4>
     <p style="font-style: normal; color: rgba(255,255,255,.66); white-space:pre-wrap">"Books, like friends, should be few and well chosen"

@@ -81,8 +81,10 @@
         </li>
     </ul>
 
+    <hr class="ab_endpage" />
+
     <h4>Elsewhere</h4>
-    <p class="ab_text">
+    <p class="ab_text" style="color:grey;">
         • 
         <a target="_blank" href="{{ $url_angel }}">AngelList</a>
         •

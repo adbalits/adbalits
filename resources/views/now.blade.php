@@ -8,6 +8,7 @@
 <?php
     $url_asbury = 'https://escapebrooklyn.com/guide-asbury-park/';
     $url_sesshin = 'http://coldmountainzen.org/events/sesshin/';
+    $url_now = 'https://nownownow.com/about';
 ?>
 <div class="books_container">
 <div class="books_backdrop">
@@ -37,8 +38,15 @@
         <a target="_blank" href="{{ $url_sesshin }}">sesshin</a>.
     </p>
 
-    <p class="ab_text" style="color:grey;">
+    <p class="ab_text" style="color:white;">
         - August 26
+    </p>
+
+    <hr class="ab_endpage" />
+    <!-- <hr style="width:20%; border-color: rgba(122,122,122,.75); margin-left:0;margin-right: auto; margin-bottom: 15px; margin-top: 15px;"/> -->
+
+    <p style="font-size:14px;color: rgba(122,122,122,.75)">
+        Part of the <a target="_blank" href="{{ $url_now }}">now</a> movement
     </p>
 </div>
 </div>
