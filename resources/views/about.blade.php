@@ -6,15 +6,18 @@
 
 @section('content')
 <?php
-    $url_bg = 'https://www.beatgig.com';
-    $url_angel = \Globe::angelUrl();
-    $url_github = \Globe::githubUrl();
-    $url_linked = \Globe::linkedUrl();
-    $url_outer = 'https://www.google.com/search?biw=1101&bih=803&tbm=isch&sa=1&ei=wfNjXaXhHo7b5gK8xrzYCA&q=outer+banks&oq=outer+banks&gs_l=img.3..0l10.684.1443..1589...0.0..0.120.999.7j4......0....1..gws-wiz-img.......0i67.vJw0B28vMyM&ved=0ahUKEwjlxa2x5qDkAhWOrVkKHTwjD4sQ4dUDCAY&uact=5';
-    $url_quora = \Globe::quoraUrl();
-    $url_valediction = 'https://bbk12e1-cdn.myschoolcdn.com/ftpimages/233/misc/misc_115913.pdf';
-    $url_speech = 'https://issuu.com/the_academy/docs/na_mag_winter2012_final/4';
-    $url_seed = 'https://pitchbook.com/profiles/company/229455-82';
+    $url_bg             = 'https://www.beatgig.com';
+    $url_angel          = \Globe::angelUrl();
+    $url_couch          = 'https://www.couchsurfing.com/people/andrewbalitsky';
+    $url_github         = \Globe::githubUrl();
+    $url_linked         = \Globe::linkedUrl();
+    $url_na             = 'https://www.norfolkacademy.org/';
+    $url_outer          = 'https://www.google.com/search?biw=1101&bih=803&tbm=isch&sa=1&ei=wfNjXaXhHo7b5gK8xrzYCA&q=outer+banks&oq=outer+banks&gs_l=img.3..0l10.684.1443..1589...0.0..0.120.999.7j4......0....1..gws-wiz-img.......0i67.vJw0B28vMyM&ved=0ahUKEwjlxa2x5qDkAhWOrVkKHTwjD4sQ4dUDCAY&uact=5';
+    $url_quora          = \Globe::quoraUrl();
+    $url_valediction    = 'https://bbk12e1-cdn.myschoolcdn.com/ftpimages/233/misc/misc_115913.pdf';
+    $url_graduation     = 'https://norfolkacademy.myschoolapp.com/ftpimages/233/download/belfry%20graduation%202012.pdf';
+    $url_speech         = 'https://issuu.com/the_academy/docs/na_mag_winter2012_final/4';
+    $url_seed           = 'https://pitchbook.com/profiles/company/229455-82';
     
 ?>
 <div class="books_container">
@@ -39,22 +42,26 @@
             1993 - Born a Leo.
         </li>
         <li>
-            2001 - Enter Norfolk Academy and begin a lifetime of pursuing the Greek ideal: cultivating mind, body, and soul.
+            2000 - Enter 
+            
+            <a target="_blank" href="{{ $url_na }}">Norfolk Academy</a>
+            
+            and begin a lifetime of pursuing the Greek ideal: cultivating mind, body, soul, and universality.
         </li>
         <li>
-            2012, Spring - Graduate Norfolk Academy as
+            2012, Spring - <a>Graduate</a> Norfolk Academy as
             
-            <a target="_blank" href="{{ $url_valediction }}">Valedictorian</a>, and snag the 
+            <a target="_blank" href="{{ $url_graduation }}">Valedictorian</a>, and snag the annual Latin, math, and
             
             <a target="_blank" href="{{ $url_speech }}">speech award</a>
             
-            as well.
+            as well. You can read my valedictory address <a target="_blank" href="{{ $url_valediction }}">here</a>.
         </li>
         <li>
             2012, Fall - Attend the University of Texas at Austin for three semesters with an Engineering Honors scholarship and dual major in Computer Science and Mathematics, completing about 70% of my credits to graduation.
         </li>
         <li>
-            2013, Fall - Vagabond. Drop out and begin a year of counter-culture lifestyle: backpacking and volunteering on farms and homesteads across 14 different countries.
+            2013, Fall - Vagabond. Drop out and begin a year of counter-culture lifestyle: backpacking, <a href={{ $url_couch }}>couchsurfing</a>, and volunteering on farms and homesteads across 14 different countries.
         </li>
         <li>
             2014, Fall - Sabbatical. Spend the winter in the 
@@ -72,9 +79,9 @@
             
             <a target="_blank" href="{{ $url_seed }}">seed stage</a>
              
-             to build a music marketplace that ends up featuring world-class performing artists (and partnering with the world's biggest music agencies).
+             to build a music marketplace that ends up featuring world-class performing artists (and partnering with the world's biggest talent agencies).
 
-             On the side I'm composing, producing, and recording folk/art/psychedelic rock for good fun.
+             On the side I'm composing, recording, and producing folk/art/psychedelic rock for good fun.
         </li>
         <li>
             2019, Summer - Sabbatical. Exit BeatGig and begin a summer of meditation, reading, learning, and philosophizing.

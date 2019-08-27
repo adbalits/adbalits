@@ -38,8 +38,8 @@
         <a target="_blank" href="{{ $url_sesshin }}">sesshin</a>.
     </p>
 
-    <p class="ab_text" style="color:white;">
-        - August 26
+    <p class="ab_text" style="color:white; color: grey;">
+        Updated: August 26
     </p>
 
     <hr class="ab_endpage" />
