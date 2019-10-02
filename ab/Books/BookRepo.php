@@ -37,7 +37,8 @@ class BookRepo
                 }
                 elseif($sortby === 'latest')
                 {
-                    $books->orderBy('date_read', 'DESC');
+                    $books->whereNotNull('date_read')
+                        ->orderBy('date_read', 'DESC');
                 }
                 else
                 {
