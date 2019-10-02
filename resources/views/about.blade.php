@@ -11,7 +11,7 @@
     $url_couch          = 'https://www.couchsurfing.com/people/andrewbalitsky';
     $url_github         = \Globe::githubUrl();
     $url_linked         = \Globe::linkedUrl();
-    $url_na             = 'https://www.norfolkacademy.org/';
+    $url_na             = 'https://www.norfolkacademy.org/about';
     $url_outer          = 'https://www.google.com/search?biw=1101&bih=803&tbm=isch&sa=1&ei=wfNjXaXhHo7b5gK8xrzYCA&q=outer+banks&oq=outer+banks&gs_l=img.3..0l10.684.1443..1589...0.0..0.120.999.7j4......0....1..gws-wiz-img.......0i67.vJw0B28vMyM&ved=0ahUKEwjlxa2x5qDkAhWOrVkKHTwjD4sQ4dUDCAY&uact=5';
     $url_quora          = \Globe::quoraUrl();
     $url_valediction    = 'https://bbk12e1-cdn.myschoolcdn.com/ftpimages/233/misc/misc_115913.pdf';
@@ -51,7 +51,7 @@
         <li>
             2012, Spring - <a>Graduate</a> Norfolk Academy as
             
-            <a target="_blank" href="{{ $url_graduation }}">Valedictorian</a>, and snag the annual Latin, math, and
+            <a target="_blank" href="{{ $url_graduation }}">Valedictorian</a>, and snag the annual
             
             <a target="_blank" href="{{ $url_speech }}">speech award</a>
             

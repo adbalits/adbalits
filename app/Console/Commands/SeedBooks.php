@@ -49,6 +49,7 @@ class SeedBooks extends Command
             $author = $item['author'];
             $rating = $item['rating'];
             $category   = $item['category'] ?? null;
+            $date_read  = $item['date_read'] ?? null;
             $img_name   = $item['img_name'] ?? null;
             $slug       = $item['slug'] ?? null;
             $subtitle   = $item['subtitle'] ?? null;
@@ -68,6 +69,7 @@ class SeedBooks extends Command
                 'author'    => $author,
                 'rating'    => $rating,
                 'category'  => $category,
+                'date_read' => $date_read,
                 'summary'   => $summary,
                 'slug'      => $slug,
                 'img_name'  => $img_name,

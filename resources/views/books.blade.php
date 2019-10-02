@@ -142,8 +142,9 @@ About
         $book_title     = $book->fullTitle();
         $img_filepath   = $book->imgFilepath();
         $rating_str     = $book->vmRating();
-        $hasRating      = $book->hasRating();
         $book_url       = $router->book($book)->url();
+        $hasBottom      = $book->hasBottomLine();
+        $bottom_str     = $book->vmBottomLine();
     ?>
     <div class="book_wrapper">
         <a href={{ $book_url }}>
@@ -163,11 +164,12 @@ About
                 {{ $category }}
             </h6>
 
-            @if($hasRating)
+            @if($hasBottom)
             <h6 style="color:grey;font-size:14px;">
-                {{ $rating_str }}
+                {{ $bottom_str }}
             </h6>
             @endif
+
         </div>
     </div>
     @endforeach

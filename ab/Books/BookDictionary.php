@@ -519,6 +519,15 @@ class BookDictionary
                 'img_name'  => 'goodpoems.jpg'
             ],
             [
+                'title'     => 'The Glass Bead Game',
+                'author'    => 'Hermann Hesse',
+                'rating'    => 0,
+                'category'  => 'literature',
+                'date_read' => '2019-09-13',
+                'slug'      => 'the-glass-bead-game',
+                'img_name'  => 'glassbead.jpg',
+            ],
+            [
                 'title'     => 'The Great Book of Amber',
                 'author'    => 'Roger Zelazny',
                 'rating'    => 0,
@@ -1180,20 +1189,20 @@ class BookDictionary
                 'img_name'  => 'radical.jpg',
             ],
             [
-                'title'     => 'Ready, Player One',
-                'author'    => 'Ernest Cline',
-                'rating'    => 0,
-                'category'  => 'fiction',
-                'slug'      => 'ready-player-one',
-                'img_name'  => 'ready.jpg',
-            ],
-            [
                 'title'     => 'A Raisin in the Sun',
                 'author'    => 'Lorraine Hansberry',
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'a-raisin-in-the-sun',
                 'img_name'  => 'raisin.jpg',
+            ],
+            [
+                'title'     => 'Ready, Player One',
+                'author'    => 'Ernest Cline',
+                'rating'    => 0,
+                'category'  => 'fiction',
+                'slug'      => 'ready-player-one',
+                'img_name'  => 'ready.jpg',
             ],
             [
                 'title'     => 'The Remains of the Day',
@@ -1210,6 +1219,15 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'romeo-and-juliet',
                 'img_name'  => 'romeo.jpg',
+            ],
+            [
+                'title'     => 'A Room of One\'s Own',
+                'author'    => 'Virginia Woolf',
+                'rating'    => 8,
+                'category'  => 'theory',
+                'date_read' => '2019-10-02',
+                'slug'      => 'a-room-of-ones-own',
+                'img_name'  => 'room.jpg',
             ],
             // #S
             [
@@ -1319,7 +1337,7 @@ class BookDictionary
             ],
             [
                 'title'     => 'Steppenwolf',
-                'author'    => 'Herman Hesse',
+                'author'    => 'Hermann Hesse',
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'steppenwolf',

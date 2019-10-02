@@ -33,4 +33,12 @@ class Globe
     {
         return 'https://www.quora.com/profile/Andrew-Balitsky';
     }
+
+    /**
+     * @return string
+     */
+    public static function dot()
+    {
+        return '•';
+    }
 }
