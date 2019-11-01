@@ -1383,6 +1383,15 @@ class BookDictionary
                 'slug'      => 'the-sun-also-rises',
                 'img_name'  => 'sunalsorises.jpg'
             ],
+            [
+                'title'     => 'The Symposium',
+                'author'    => 'Plato (translated by Walter Hamilton)',
+                'rating'    => 6,
+                'category'  => 'theory',
+                'date_read' => '2019-10-16',
+                'slug'      => 'the-symposium',
+                'img_name'  => 'symposium.jpg',
+            ],
             // #T
             [
                 'title'     => 'A Tale of Two Cities',
