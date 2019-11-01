@@ -1223,7 +1223,7 @@ class BookDictionary
             [
                 'title'     => 'A Room of One\'s Own',
                 'author'    => 'Virginia Woolf',
-                'rating'    => 8,
+                'rating'    => 9,
                 'category'  => 'theory',
                 'date_read' => '2019-10-02',
                 'slug'      => 'a-room-of-ones-own',
@@ -1598,7 +1598,7 @@ class BookDictionary
                 'title'     => 'Zen Mind, Beginner\'s Mind',
                 'subtitle'  => 'Informal Talks on Zen Meditation and Practice',
                 'author'    => 'Shunryu Suzuki',
-                'rating'    => 0,
+                'rating'    => 8,
                 'category'  => 'theory',
                 'slug'      => 'zen-mind-beginners-mind',
                 'img_name'  => 'zenmind.jpg',
