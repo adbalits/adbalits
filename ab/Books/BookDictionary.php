@@ -1223,7 +1223,7 @@ class BookDictionary
             [
                 'title'     => 'A Room of One\'s Own',
                 'author'    => 'Virginia Woolf',
-                'rating'    => 8,
+                'rating'    => 9,
                 'category'  => 'theory',
                 'date_read' => '2019-10-02',
                 'slug'      => 'a-room-of-ones-own',
@@ -1382,6 +1382,15 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'the-sun-also-rises',
                 'img_name'  => 'sunalsorises.jpg'
+            ],
+            [
+                'title'     => 'The Symposium',
+                'author'    => 'Plato (translated by Walter Hamilton)',
+                'rating'    => 6,
+                'category'  => 'theory',
+                'date_read' => '2019-10-16',
+                'slug'      => 'the-symposium',
+                'img_name'  => 'symposium.jpg',
             ],
             // #T
             [
@@ -1589,7 +1598,7 @@ class BookDictionary
                 'title'     => 'Zen Mind, Beginner\'s Mind',
                 'subtitle'  => 'Informal Talks on Zen Meditation and Practice',
                 'author'    => 'Shunryu Suzuki',
-                'rating'    => 0,
+                'rating'    => 8,
                 'category'  => 'theory',
                 'slug'      => 'zen-mind-beginners-mind',
                 'img_name'  => 'zenmind.jpg',
