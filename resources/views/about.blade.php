@@ -7,6 +7,7 @@
 @section('content')
 <?php
     $url_bg             = 'https://www.beatgig.com';
+    $url_bro            = 'https://www.researchgate.net/profile/Philip_Balitsky';
     $url_angel          = \Globe::angelUrl();
     $url_couch          = 'https://www.couchsurfing.com/people/andrewbalitsky';
     $url_github         = \Globe::githubUrl();
@@ -85,6 +86,12 @@
         </li>
         <li>
             2019, Summer - Sabbatical. Exit BeatGig and begin a summer of meditation, reading, learning, and philosophizing.
+        </li>
+        <li>
+            2019, Fall - Travel. Spend almost two months on road trip with my <a target="_blank" href={{ $url_bro }}>brother</a>.
+        </li>
+        <li>
+            2019, Winter - Sabbatical. Shift my focus to research and development.
         </li>
     </ul>
 
