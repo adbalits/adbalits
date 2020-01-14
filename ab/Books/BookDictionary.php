@@ -15,6 +15,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => '1q84',
                 'img_name'  => '1q84.jpg',
+                'date_read' => '2017-05-01',
             ],
             [
                 'title'     => '12 Rules for Life',
@@ -25,6 +26,7 @@ class BookDictionary
                 'summary'   => '',
                 'slug'      => '12-rules-for-life',
                 'img_name'  => '12rules.jpg',
+                'date_read' => '2019-03-01',
             ],
             [
                 'title'     => '1984',
@@ -32,7 +34,8 @@ class BookDictionary
                 'rating'    => 9,
                 'category'  => 'literature',
                 'slug'      => '1984',
-                'img_name'  => '1984.jpg'
+                'img_name'  => '1984.jpg',
+                'date_read' => '2014-05-01',
             ],
             // #A
             [
@@ -41,7 +44,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'a-streetcar-named-desire',
-                'img_name'  => 'a_streetcar.gif'
+                'img_name'  => 'a_streetcar.gif',
+                'date_read' => '2011-05-31',
             ],
             [
                 'title'     => 'Art',
@@ -50,6 +54,7 @@ class BookDictionary
                 'category'  => 'foreign',
                 'slug'      => 'art',
                 'img_name'  => 'art.jpg',
+                'date_read' => '2010-05-31',
             ],
             [
                 'title'     => 'Aroused',
@@ -59,6 +64,7 @@ class BookDictionary
                 'category'  => 'nonfiction',
                 'slug'      => 'aroused',
                 'img_name'  => 'aroused.jpg',
+                'date_read' => '2019-06-01',
             ],
             [
                 'title'     => 'The Art of Learning',
@@ -68,6 +74,7 @@ class BookDictionary
                 'category'  => 'biography',
                 'slug'      => 'the-art-of-learning',
                 'img_name'  => 'art_of_learning.jpg',
+                'date_read' => '2014-05-01',
             ],
             [
                 'title'     => 'As I Lay Dying',
@@ -76,6 +83,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'as-i-lay-dying',
                 'img_name'  => 'as_i_lay_dying.jpg',
+                'date_read' => '2011-05-31',
             ],
             [
                 'title'     => 'Atlas Shrugged',
@@ -84,6 +92,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'atlas-shrugged',
                 'img_name'  => 'atlas.gif',
+                'date_read' => '2014-08-01',
             ],
             // #B
             [
@@ -93,6 +102,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'beowulf',
                 'img_name'  => 'beowulf.jpg',
+                'date_read' => '2010-05-31',
             ],
             [
                 'title'     => 'The Bell Ringers',
@@ -110,6 +120,7 @@ class BookDictionary
                 'category'  => 'biography',
                 'slug'      => 'benjamin-franklin',
                 'img_name'  => 'benjamin.jpg',
+                'date_read' => '2017-02-01',
             ],
             [
                 'title'     => 'The Big Short',
@@ -119,6 +130,7 @@ class BookDictionary
                 'category'  => 'nonfiction',
                 'slug'      => 'the-big-short',
                 'img_name'  => 'bigshort.jpg',
+                'date_read' => '2010-08-01',
             ],
             [
                 'title'     => 'Bottled & Sold',
@@ -128,6 +140,7 @@ class BookDictionary
                 'category'  => 'nonfiction',
                 'slug'      => 'bottled-and-sold',
                 'img_name'  => 'bottled.jpg',
+                'date_read' => '2010-08-01',
             ],
             [
                 'title'     => 'Breakfast of Champions',
@@ -144,6 +157,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'brave-new-world',
                 'img_name'  => 'bravenew.jpg',
+                'date_read' => '2011-08-01',
             ],
             [
                 'title'     => 'Buddha at the Apocalypse',
@@ -153,6 +167,7 @@ class BookDictionary
                 'category'  => 'theory',
                 'slug'      => 'buddha-at-the-apocalypse',
                 'img_name'  => 'buddhaat.jpg',
+                'date_read' => '2019-08-01',
             ],
             [
                 'title'     => 'Buddhism Plain and Simple',
@@ -162,6 +177,7 @@ class BookDictionary
                 'category'  => 'theory',
                 'slug'      => 'buddhism-plain-and-simple',
                 'img_name'  => 'buddhism.jpg',
+                'date_read' => '2013-12-01',
             ],
             // #C
             [
@@ -171,6 +187,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'cats-cradle',
                 'img_name'  => 'cats.jpg',
+                'date_read' => '2008-08-31',
             ],
             [
                 'title'     => 'Catch 22',
@@ -179,6 +196,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'catch-22',
                 'img_name'  => 'catch.jpg',
+                'date_read' => '2014-05-01',
             ],
             [
                 'title'     => 'The Catcher in the Rye',
@@ -196,6 +214,7 @@ class BookDictionary
                 'category'  => 'business',
                 'slug'      => 'the-charisma-myth',
                 'img_name'  => 'charisma.jpg',
+                'date_read' => '2014-05-01',
             ],
             [
                 'title'     => 'Choose Yourself',
@@ -205,6 +224,7 @@ class BookDictionary
                 'category'  => 'business',
                 'slug'      => 'choose-yourself',
                 'img_name'  => 'choose.jpg',
+                'date_read' => '2014-08-01',
             ],
             [
                 'title'     => 'A Clash of Kings',
@@ -213,6 +233,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'a-clash-of-kings',
                 'img_name'  => 'clash.jpg',
+                'date_read' => '2014-03-01',
             ],
             [
                 'title'     => 'Clean Code',
@@ -231,6 +252,7 @@ class BookDictionary
                 'category'  => 'nonfiction',
                 'slug'      => 'conscious',
                 'img_name'  => 'conscious.jpg',
+                'date_read' => '2019-06-01',
             ],
             [
                 'title'     => 'Conversation',
@@ -240,6 +262,7 @@ class BookDictionary
                 'category'  => 'business',
                 'slug'      => 'conversation',
                 'img_name'  => 'conversation.jpg',
+                'date_read' => '2014-04-01',
             ],
             [
                 'title'     => 'The Curious Incident of the Dog in the Night-Time',
@@ -257,6 +280,7 @@ class BookDictionary
                 'category'  => 'business',
                 'slug'      => 'creativity-inc',
                 'img_name'  => 'creativity.jpg',
+                'date_read' => '2015-10-01',
             ],
             [
                 'title'     => 'Crime and Punishment',
@@ -265,6 +289,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'crime-and-punishment',
                 'img_name'  => 'crime.jpg',
+                'date_read' => '2014-10-01',
             ],
             [
                 'title'     => 'The Crucible',
@@ -273,6 +298,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'the-crucible',
                 'img_name'  => 'crucible.jpg',
+                'date_read' => '2010-08-31',
             ],
             [
                 'title'     => 'Cryptonomicon',
@@ -281,6 +307,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'cryptonomicon',
                 'img_name'  => 'cryptonomicon.jpg',
+                'date_read' => '2019-03-01',
             ],
             // #D
             [
@@ -299,6 +326,7 @@ class BookDictionary
                 'category'  => 'nonfiction',
                 'slug'      => 'daily-rituals',
                 'img_name'  => 'daily.jpg',
+                'date_read' => '2014-08-01',
             ],
             [
                 'title'     => 'A Dance with Dragons',
@@ -307,6 +335,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'a-dance-with-dragons',
                 'img_name'  => 'dance.jpg',
+                'date_read' => '2014-03-01',
             ],
             [
                 'title'     => 'The Dark Elf Trilogy',
@@ -332,6 +361,7 @@ class BookDictionary
                 'category'  => 'theory',
                 'slug'      => 'deep-work',
                 'img_name'  => 'deep.jpg',
+                'date_read' => '2017-12-01',
             ],
             [
                 'title'     => 'The Dharma Bums',
@@ -340,6 +370,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'the-dharma-bums',
                 'img_name'  => 'dharma.jpg',
+                'date_read' => '2017-04-01',
             ],
             [
                 'title'     => 'The Divine Comedy',
@@ -356,6 +387,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'don-quixote',
                 'img_name'  => 'don.jpg',
+                'date_read' => '2014-09-01',
             ],
             [
                 'title'     => 'Drive',
@@ -365,6 +397,7 @@ class BookDictionary
                 'category'  => 'business',
                 'slug'      => 'drive',
                 'img_name'  => 'drive.jpg',
+                'date_read' => '2014-08-01',
             ],
             [
                 'title'     => 'Dune',
@@ -373,6 +406,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'dune',
                 'img_name'  => 'dune.jpg',
+                'date_read' => '2014-08-01',
             ],
             // #E
             [
@@ -383,6 +417,7 @@ class BookDictionary
                 'category'  => 'biography',
                 'slug'      => 'einstein',
                 'img_name'  => 'einstein.jpg',
+                'date_read' => '2014-08-01',
             ],
             [
                 'title'     => 'Elantris',
@@ -400,6 +435,7 @@ class BookDictionary
                 'category'  => 'biography',
                 'slug'      => 'elon-musk',
                 'img_name'  => 'elon.jpg',
+                'date_read' => '2015-08-01',
             ],
             [
                 'title'     => 'Ender\'s Game',
@@ -425,6 +461,7 @@ class BookDictionary
                 'category'  => 'nonfiction',
                 'slug'      => 'emotional-intelligence',
                 'img_name'  => 'emotional.jpg',
+                'date_read' => '2015-01-01',
             ],
             [
                 'title'     => 'The Everything Store',
@@ -434,6 +471,7 @@ class BookDictionary
                 'category'  => 'business',
                 'slug'      => 'the-everything-store',
                 'img_name'  => 'everything_store.jpg',
+                'date_read' => '2016-11-01',
             ],
             // #F
             [
@@ -452,6 +490,7 @@ class BookDictionary
                 'category'  => 'nonfiction',
                 'slug'      => 'fast-food-nation',
                 'img_name'  => 'fastfood.jpg',
+                'date_read' => '2008-08-31',
             ],
             [
                 'title'     => 'Farewell, My Lovely',
@@ -460,6 +499,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'farewell-my-lovely',
                 'img_name'  => 'farewell.jpg',
+                'date_read' => '2017-04-01',
             ],
             [
                 'title'     => 'A Feast for Crows',
@@ -468,6 +508,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'a-feast-for-crows',
                 'img_name'  => 'feast.jpg',
+                'date_read' => '2014-02-01',
             ],
             [
                 'title'     => 'The Fine Art of Small Talk',
@@ -476,6 +517,7 @@ class BookDictionary
                 'category'  => 'business',
                 'slug'      => 'the-fine-art-of-small-talk',
                 'img_name'  => 'fineart.jpg',
+                'date_read' => '2014-05-01',
             ],
             [
                 'title'     => 'First Rider\'s Call',
@@ -492,6 +534,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'frankenstein',
                 'img_name'  => 'frankenstein.jpg',
+                'date_read' => '2009-12-31',
             ],
             // #G
             [
@@ -500,7 +543,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'fiction',
                 'slug'      => 'a-game-of-thrones',
-                'img_name'  => 'gameofthrones.jpg'
+                'img_name'  => 'gameofthrones.jpg',
+                'date_read' => '2014-02-01',
             ],
             [
                 'title'     => 'The Giver',
@@ -508,7 +552,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'fiction',
                 'slug'      => 'the-giver',
-                'img_name'  => 'giver.jpg'
+                'img_name'  => 'giver.jpg',
+                'date_read' => '2006-05-31',
             ],
             [
                 'title'     => 'Good Poems',
@@ -534,6 +579,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'the-great-book-of-amber',
                 'img_name'  => 'greatbook.jpg',
+                'date_read' => '2009-08-31',
             ],
             [
                 'title'     => 'The Great Gatsby',
@@ -542,6 +588,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'the-great-gatsby',
                 'img_name'  => 'greatgats.jpg',
+                'date_read' => '2010-12-31',
             ],
             [
                 'title'     => 'Guns, Germs, Steel',
@@ -550,6 +597,7 @@ class BookDictionary
                 'category'  => 'nonfiction',
                 'slug'      => 'guns-germs-steel',
                 'img_name'  => 'ggs.jpg',
+                'date_read' => '2017-12-01',
             ],
             // #H
             [
@@ -559,6 +607,7 @@ class BookDictionary
                 'category'  => 'theory',
                 'slug'      => 'hackers-and-painters',
                 'img_name'  => 'hp.jpg',
+                'date_read' => '2016-09-01',
             ],
             [
                 'title'     => 'Hamlet',
@@ -567,6 +616,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'hamlet',
                 'img_name'  => 'hamlet.jpg',
+                'date_read' => '2012-05-31',
             ],
             [
                 'title'     => 'Happier',
@@ -575,6 +625,7 @@ class BookDictionary
                 'category'  => 'nonfiction',
                 'slug'      => 'happier',
                 'img_name'  => 'happier.jpg',
+                'date_read' => '2015-04-01',
             ],
             [
                 'title'     => 'The Happiness Hypothesis',
@@ -584,6 +635,7 @@ class BookDictionary
                 'category'  => 'theory',
                 'slug'      => 'the-happiness-hypothesis',
                 'img_name'  => 'haphyp.jpg',
+                'date_read' => '2014-05-01',
             ],
             [
                 'title'     => 'Hard-Boiled Wonderland and the End of the World',
@@ -592,6 +644,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'hard-boiled-wonderland-and-the-end-of-the-world',
                 'img_name'  => 'hardboiled.jpg',
+                'date_read' => '2016-10-01',
             ],
             [
                 'title'     => 'Harry Potter and the Sorcerer\'s Stone',
@@ -656,6 +709,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'hero-of-ages',
                 'img_name'  => 'heroofages.jpg',
+                'date_read' => '2015-07-01',
             ],
             [
                 'title'     => 'The High Lord',
@@ -672,6 +726,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'the-high-window',
                 'img_name'  => 'highwindow.jpg',
+                'date_read' => '2017-04-01',
             ],
             [
                 'title'     => 'The Hobbit',
@@ -689,6 +744,7 @@ class BookDictionary
                 'category'  => 'theory',
                 'slug'      => 'homo-deus',
                 'img_name'  => 'homodeus.jpg',
+                'date_read' => '2019-05-01',
             ],
             [
                 'title'     => 'Hoot',
@@ -721,6 +777,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'the-house-on-mango-street',
                 'img_name'  => 'houseonmango.jpg',
+                'date_read' => '2008-05-31',
             ],
             [
                 'title'     => 'How to Win Friends and Influence People',
@@ -761,6 +818,7 @@ class BookDictionary
                 'category'  => 'nonfiction',
                 'slug'      => 'the-inflamed-mind',
                 'img_name'  => 'inflamed.jpg',
+                'date_read' => '2019-07-01',
             ],
             [
                 'title'     => 'Inherent Vice',
@@ -769,6 +827,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'inherent-vice',
                 'img_name'  => 'inherentvice.jpg',
+                'date_read' => '2018-12-01',
             ],
             [
                 'title'     => 'The Illustrated Man',
@@ -785,6 +844,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'in-his-own-write',
                 'img_name'  => 'inhis.jpg',
+                'date_read' => '2016-03-01',
             ],
             [
                 'title'     => 'In the Plex',
@@ -793,6 +853,7 @@ class BookDictionary
                 'category'  => 'business',
                 'slug'      => 'in-the-plex',
                 'img_name'  => 'intheplex.jpg',
+                'date_read' => '2015-01-01',
             ],
             [
                 'title'     => 'Influence',
@@ -802,6 +863,7 @@ class BookDictionary
                 'category'  => 'business',
                 'slug'      => 'influence',
                 'img_name'  => 'influence.jpg',
+                'date_read' => '2014-09-01',
             ],
             // #J
             [
@@ -811,6 +873,7 @@ class BookDictionary
                 'category'  => 'biography',
                 'slug'      => 'john',
                 'img_name'  => 'john.jpg',
+                'date_read' => '2014-10-01',
             ],
             [
                 'title'     => 'Julius Caesar',
@@ -819,6 +882,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'julius-caesar',
                 'img_name'  => 'julius.jpg',
+                'date_read' => '2013-08-31',
             ],
             // #K
             [
@@ -828,6 +892,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'kafka-on-the-shore',
                 'img_name'  => 'kafka.jpg',
+                'date_read' => '2016-11-01',
             ],
             // #L
             [
@@ -861,6 +926,7 @@ class BookDictionary
                 'category'  => 'business',
                 'slug'      => 'leanstartup',
                 'img_name'  => 'leanstartup.jpg',
+                'date_read' => '2015-07-01',
             ],
             [
                 'title'     => 'Leonardo da Vinci',
@@ -869,6 +935,7 @@ class BookDictionary
                 'category'  => 'biography',
                 'slug'      => 'leo',
                 'img_name'  => 'leo.jpg',
+                'date_read' => '2019-08-01',
             ],
             [
                 'title'     => 'Light in August',
@@ -885,6 +952,7 @@ class BookDictionary
                 'category'  => 'biography',
                 'slug'      => 'lincoln',
                 'img_name'  => 'lincoln.jpg',
+                'date_read' => '2019-03-01',
             ],
             [
                 'title'     => 'The Lion in Winter',
@@ -901,6 +969,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'lolita',
                 'img_name'  => 'lolita.jpg',
+                'date_read' => '2014-06-01',
             ],
             [
                 'title'     => 'Look Homeward, Angel',
@@ -909,6 +978,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'look-homeward-angel',
                 'img_name'  => 'lookhome.jpg',
+                'date_read' => '2016-03-01',
             ],
             [
                 'title'     => 'Lord of the Flies',
@@ -934,6 +1004,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'macbeth',
                 'img_name'  => 'macbeth.jpg',
+                'date_read' => '2010-05-31',
             ],
             [
                 'title'     => 'Made to Stick',
@@ -959,6 +1030,7 @@ class BookDictionary
                 'category'  => 'theory',
                 'slug'      => 'mans-search-for-meaning',
                 'img_name'  => 'man.jpg',
+                'date_read' => '2014-09-01',
             ],
             [
                 'title'     => 'Mastery',
@@ -967,6 +1039,8 @@ class BookDictionary
                 'category'  => 'nonfiction',
                 'slug'      => 'mastery',
                 'img_name'  => 'mastery.jpg',
+                'date_read' => '2015-05-01',
+                
             ],
             [
                 'title'     => 'A Midsummer Night\'s Dream',
@@ -975,6 +1049,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'midsummer-nights-dream',
                 'img_name'  => 'midsummer.jpg',
+                'date_read' => '2008-05-31',
             ],
             [
                 'title'     => 'Mindset',
@@ -983,6 +1058,7 @@ class BookDictionary
                 'category'  => 'nonfiction',
                 'slug'      => 'mindset',
                 'img_name'  => 'mindset.jpg',
+                'date_read' => '2014-05-01',
             ],
             [
                 'title'     => 'Mistborn',
@@ -991,6 +1067,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'mistborn',
                 'img_name'  => 'mistborn.jpg',
+                'date_read' => '2015-07-01',
             ],
             [
                 'title'     => 'Moby Dick',
@@ -999,6 +1076,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'moby-dick',
                 'img_name'  => 'mobydick.jpg',
+                'date_read' => '2014-09-01',
             ],
             [
                 'title'     => 'A Moveable Feast',
@@ -1007,6 +1085,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'a-moveable-feast',
                 'img_name'  => 'moveable.jpg',
+                'date_read' => '2018-02-01',
             ],
             [
                 'title'     => 'Much Ado About Nothing',
@@ -1015,6 +1094,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'much-ado-about-nothing',
                 'img_name'  => 'muchado.jpg',
+                'date_read' => '2008-05-31',
             ],
             [
                 'title'     => 'Mystic and Rider',
@@ -1031,6 +1111,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'mystic-river',
                 'img_name'  => 'mysticriver.jpg',
+                'date_read' => '2005-05-31',
             ],
             // # N
             [
@@ -1040,6 +1121,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'the-name-of-the-wind',
                 'img_name'  => 'namewind.jpg',
+                'date_read' => '2014-06-01',
             ],
             [
                 'title'     => 'Never Let Me Go',
@@ -1048,6 +1130,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'never-let-me-go',
                 'img_name'  => 'neverletmego.jpg',
+                'date_read' => '2019-03-01',
             ],
             [
                 'title'     => 'Night',
@@ -1063,7 +1146,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'norwegian-wood',
-                'img_name'  => 'norwegian.jpg'
+                'img_name'  => 'norwegian.jpg',
+                'date_read' => '2016-09-01',
             ],
             [
                 'title'     => 'The Novice',
@@ -1105,6 +1189,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'on-the-road',
                 'img_name'  => 'ontheroad.jpg',
+                'date_read' => '2013-08-31',
             ],
             [
                 'title'     => 'One Hundred Years of Solitude',
@@ -1121,6 +1206,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'othello',
                 'img_name'  => 'othello.jpg',
+                'date_read' => '2012-05-31',
             ],
             // #P
             [
@@ -1130,6 +1216,7 @@ class BookDictionary
                 'category'  => 'nonfiction',
                 'slug'      => 'the-paradox-of-choice',
                 'img_name'  => 'paradox.jpg',
+                'date_read' => '2014-08-01',
             ],
             [
                 'title'     => 'The Pearl',
@@ -1146,6 +1233,7 @@ class BookDictionary
                 'category'  => 'business',
                 'slug'      => 'the-personal-mba',
                 'img_name'  => 'personalmba.jpg',
+                'date_read' => '2016-04-01',
             ],
             [
                 'title'     => 'Pipe Dreams',
@@ -1162,6 +1250,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'player-piano',
                 'img_name'  => 'playerpiano.jpg',
+                'date_read' => '2018-05-01',
             ],
             [
                 'title'     => 'Post Office',
@@ -1170,6 +1259,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'post-office',
                 'img_name'  => 'postoffice.jpg',
+                'date_read' => '2015-03-01',
             ],
             [
                 'title'     => 'The Power of Habit',
@@ -1178,6 +1268,7 @@ class BookDictionary
                 'category'  => 'nonfiction',
                 'slug'      => 'the-power-of-habit',
                 'img_name'  => 'powerhabit.jpg',
+                'date_read' => '2014-09-01',
             ],
             // #R
             [
@@ -1187,6 +1278,7 @@ class BookDictionary
                 'category'  => 'theory',
                 'slug'      => 'radical-acceptance',
                 'img_name'  => 'radical.jpg',
+                'date_read' => '2015-01-01',
             ],
             [
                 'title'     => 'A Raisin in the Sun',
@@ -1203,6 +1295,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'ready-player-one',
                 'img_name'  => 'ready.jpg',
+                'date_read' => '2017-12-01',
             ],
             [
                 'title'     => 'The Remains of the Day',
@@ -1211,6 +1304,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'the-remains-of-the-day',
                 'img_name'  => 'remains.jpg',
+                'date_read' => '2019-05-01',
             ],
             [
                 'title'     => 'Romeo and Juliet',
@@ -1219,6 +1313,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'romeo-and-juliet',
                 'img_name'  => 'romeo.jpg',
+                'date_read' => '2009-05-31',
             ],
             [
                 'title'     => 'A Room of One\'s Own',
@@ -1236,7 +1331,8 @@ class BookDictionary
                 'rating'    => 10,
                 'category'  => 'nonfiction',
                 'slug'      => 'sapiens',
-                'img_name'  => 'sapiens.jpg'
+                'img_name'  => 'sapiens.jpg',
+                'date_read' => '2017-07-01',
             ],
             [
                 'title'     => 'The Scarlet Letter',
@@ -1244,7 +1340,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'scarlet',
-                'img_name'  => 'scarlet.jpg'
+                'img_name'  => 'scarlet.jpg',
+                'date_read' => '2010-08-31',
             ],
             [
                 'title'     => 'Seneca',
@@ -1253,7 +1350,8 @@ class BookDictionary
                 'rating'    => 8,
                 'category'  => 'theory',
                 'slug'      => 'seneca',
-                'img_name'  => 'seneca.jpg'
+                'img_name'  => 'seneca.jpg',
+                'date_read' => '2013-08-31',
             ],
             [
                 'title'     => 'A Separate Peace',
@@ -1269,7 +1367,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'seveneves',
-                'img_name'  => 'seveneves.jpg'
+                'img_name'  => 'seveneves.jpg',
+                'date_read' => '2017-04-01',
             ],
             [
                 'title'     => 'Siddhartha',
@@ -1277,7 +1376,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'siddhartha',
-                'img_name'  => 'siddhartha.jpg'
+                'img_name'  => 'siddhartha.jpg',
+                'date_read' => '2018-01-01',
             ],
             [
                 'title'     => 'Sir Gawain and the Green Knight',
@@ -1293,7 +1393,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'slaughterhouse-five',
-                'img_name'  => 'slaughterhouse.jpg'
+                'img_name'  => 'slaughterhouse.jpg',
+                'date_read' => '2008-08-31',
             ],
             [
                 'title'     => 'So Good They Can\'t Ignore You',
@@ -1301,7 +1402,8 @@ class BookDictionary
                 'rating'    => 9,
                 'category'  => 'business',
                 'slug'      => 'so-good-they-cant-ignore-you',
-                'img_name'  => 'sogood.jpg'
+                'img_name'  => 'sogood.jpg',
+                'date_read' => '2015-03-01',
             ],
             [
                 'title'     => 'Sons and Lovers',
@@ -1309,7 +1411,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'sons-and-lovers',
-                'img_name'  => 'sonslovers.jpg'
+                'img_name'  => 'sonslovers.jpg',
+                'date_read' => '2015-01-01',
             ],
             [
                 'title'     => 'Sorrows of Young Werther',
@@ -1317,7 +1420,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'sorrows-of-young-werther',
-                'img_name'  => 'sorrows.jpg'
+                'img_name'  => 'sorrows.jpg',
+                'date_read' => '2018-02-01',
             ],
             [
                 'title'     => 'The Sound and the Fury',
@@ -1333,7 +1437,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'fiction',
                 'slug'      => 'stardust',
-                'img_name'  => 'stardust.jpg'
+                'img_name'  => 'stardust.jpg',
+                'date_read' => '2017-03-01',
             ],
             [
                 'title'     => 'Steppenwolf',
@@ -1341,7 +1446,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'steppenwolf',
-                'img_name'  => 'steppenwolf.jpg'
+                'img_name'  => 'steppenwolf.jpg',
+                'date_read' => '2018-04-01',
             ],
             [
                 'title'     => 'Steve Jobs',
@@ -1349,7 +1455,8 @@ class BookDictionary
                 'rating'    => 9,
                 'category'  => 'biography',
                 'slug'      => 'steve-jobs',
-                'img_name'  => 'stevejobs.jpg'
+                'img_name'  => 'stevejobs.jpg',
+                'date_read' => '2014-08-01',
             ],
             [
                 'title'     => 'A Storm of Swords',
@@ -1357,7 +1464,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'fiction',
                 'slug'      => 'a-storm-of-swords',
-                'img_name'  => 'stormswords.jpg'
+                'img_name'  => 'stormswords.jpg',
+                'date_read' => '2014-03-01',
             ],
             [
                 'title'     => 'The Strange Case of Dr. Jekyll and Mr. Hyde',
@@ -1373,7 +1481,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'the-subterraneans',
-                'img_name'  => 'subterraneans.jpg'
+                'img_name'  => 'subterraneans.jpg',
+                'date_read' => '2018-09-01',
             ],
             [
                 'title'     => 'The Sun Also Rises',
@@ -1381,7 +1490,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'the-sun-also-rises',
-                'img_name'  => 'sunalsorises.jpg'
+                'img_name'  => 'sunalsorises.jpg',
+                'date_read' => '2015-01-01',
             ],
             [
                 'title'     => 'The Symposium',
@@ -1407,7 +1517,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'the-tempest',
-                'img_name'  => 'tempest.jpg'
+                'img_name'  => 'tempest.jpg',
+                'date_read' => '2011-05-31',
             ],
             [
                 'title'     => 'Ten Little Indians',
@@ -1415,7 +1526,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'fiction',
                 'slug'      => 'ten-little-indians',
-                'img_name'  => 'tenlittle.jpg'
+                'img_name'  => 'tenlittle.jpg',
+                'date_read' => '2006-05-31',
             ],
             [
                 'title'     => 'Their Eyes Were Watching God',
@@ -1423,7 +1535,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'their-eyes-were-watching-god',
-                'img_name'  => 'theireyes.jpg'
+                'img_name'  => 'theireyes.jpg',
+                'date_read' => '2009-05-31',
             ],
             [
                 'title'     => 'The Tipping Point',
@@ -1432,7 +1545,8 @@ class BookDictionary
                 'rating'    => 6,
                 'category'  => 'nonfiction',
                 'slug'      => 'the-tipping-point',
-                'img_name'  => 'tipping.jpg'
+                'img_name'  => 'tipping.jpg',
+                'date_read' => '2014-10-01',
             ],
             [
                 'title'     => 'Thomas Jefferson',
@@ -1441,7 +1555,8 @@ class BookDictionary
                 'rating'    => 8,
                 'category'  => 'biography',
                 'slug'      => 'thomas-jefferson',
-                'img_name'  => 'tj.jpg'
+                'img_name'  => 'tj.jpg',
+                'date_read' => '2018-02-01',
             ],
             [
                 'title'     => 'To Have or To Be',
@@ -1449,7 +1564,8 @@ class BookDictionary
                 'rating'    => 7,
                 'category'  => 'theory',
                 'slug'      => 'to-have-or-to-be',
-                'img_name'  => 'tohave.jpg'
+                'img_name'  => 'tohave.jpg',
+                'date_read' => '2015-01-02',
             ],
             [
                 'title'     => 'To Kill a Mockingbird',
@@ -1465,7 +1581,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'the-trial',
-                'img_name'  => 'trial.jpg'
+                'img_name'  => 'trial.jpg',
+                'date_read' => '2014-10-01',
             ],
             [
                 'title'     => 'Tribes',
@@ -1473,7 +1590,8 @@ class BookDictionary
                 'rating'    => 7,
                 'category'  => 'business',
                 'slug'      => 'tribes',
-                'img_name'  => 'tribes.jpg'
+                'img_name'  => 'tribes.jpg',
+                'date_read' => '2015-01-01',
             ],
             [
                 'title'     => 'Tropic of Cancer',
@@ -1491,6 +1609,7 @@ class BookDictionary
                 'category'  => 'biography',
                 'slug'      => 'the-truth',
                 'img_name'  => 'truth.jpg',
+                'date_read' => '2015-10-01',
             ],
             // #V
             [
@@ -1508,6 +1627,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'vineland',
                 'img_name'  => 'vineland.jpg',
+                'date_read' => '2019-05-01',
             ],
             // #W
             [
@@ -1517,6 +1637,7 @@ class BookDictionary
                 'category'  => 'theory',
                 'slug'      => 'wayzen',
                 'img_name'  => 'wayzen.jpg',
+                'date_read' => '2019-08-01',
             ],
             [
                 'title'     => 'Well of Ascension',
@@ -1525,6 +1646,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'well-of-ascension',
                 'img_name'  => 'wellofasc.jpg',
+                'date_read' => '2015-07-01',
             ],
             [
                 'title'     => 'A Wild Sheep Chase',
@@ -1533,6 +1655,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'a-wild-sheep-chase',
                 'img_name'  => 'wildsheep.jpg',
+                'date_read' => '2018-02-01',
             ],
             [
                 'title'     => 'Willpower',
@@ -1542,6 +1665,7 @@ class BookDictionary
                 'category'  => 'nonfiction',
                 'slug'      => 'willpower',
                 'img_name'  => 'willpower.jpg',
+                'date_read' => '2014-08-01',
             ],
             [
                 'title'     => 'The Wind-Up Bird Chronicle',
@@ -1550,6 +1674,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'the-windup-bird-chronicle',
                 'img_name'  => 'windupbird.jpg',
+                'date_read' => '2016-07-01',
             ],
             [
                 'title'     => 'The Wise Man\'s Fear',
@@ -1558,6 +1683,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'the-wise-mans-fear',
                 'img_name'  => 'wisefear.jpg',
+                'date_read' => '2014-06-01',
             ],
             [
                 'title'     => 'Women',
@@ -1566,6 +1692,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'women',
                 'img_name'  => 'women.jpg',
+                'date_read' => '2015-02-01',
             ],
             [
                 'title'     => 'Wuthering Heights',
@@ -1574,6 +1701,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'wuthering-heights',
                 'img_name'  => 'wuthering.jpg',
+                'date_read' => '2009-12-31',
             ],
             // #Y
             [
@@ -1584,6 +1712,7 @@ class BookDictionary
                 'category'  => 'nonfiction',
                 'slug'      => 'your-memory',
                 'img_name'  => 'yourmemory.jpg',
+                'date_read' => '2013-08-31',
             ],
             // #Z
             [
@@ -1593,6 +1722,7 @@ class BookDictionary
                 'category'  => 'theory',
                 'slug'      => 'zen-and-the-art-of-motorcycle-maintenance',
                 'img_name'  => 'zmm.jpg',
+                'date_read' => '2018-10-01',
             ],
             [
                 'title'     => 'Zen Mind, Beginner\'s Mind',
@@ -1602,6 +1732,7 @@ class BookDictionary
                 'category'  => 'theory',
                 'slug'      => 'zen-mind-beginners-mind',
                 'img_name'  => 'zenmind.jpg',
+                'date_read' => '2019-07-01',
             ],
             [
                 'title'     => 'Zero',
@@ -1619,6 +1750,7 @@ class BookDictionary
                 'category'  => 'business',
                 'slug'      => 'zero-to-one',
                 'img_name'  => 'zero21.jpg',
+                'date_read' => '2015-05-01',
             ],
             // #EXTRA
             [

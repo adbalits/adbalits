@@ -15,7 +15,7 @@ class Globe
      */
     public static function githubUrl()
     {
-        return 'https://github.com/adbalits/adbalits';
+        return 'https://github.com/adbalits/';
     }
 
     /**
