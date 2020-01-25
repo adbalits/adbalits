@@ -15,9 +15,11 @@
     $url_na             = 'https://www.norfolkacademy.org/about';
     $url_outer          = 'https://www.google.com/search?biw=1101&bih=803&tbm=isch&sa=1&ei=wfNjXaXhHo7b5gK8xrzYCA&q=outer+banks&oq=outer+banks&gs_l=img.3..0l10.684.1443..1589...0.0..0.120.999.7j4......0....1..gws-wiz-img.......0i67.vJw0B28vMyM&ved=0ahUKEwjlxa2x5qDkAhWOrVkKHTwjD4sQ4dUDCAY&uact=5';
     $url_quora          = \Globe::quoraUrl();
+    $url_yearbook       = url('images/yearbook.jpg');
     $url_valediction    = 'https://bbk12e1-cdn.myschoolcdn.com/ftpimages/233/misc/misc_115913.pdf';
     $url_graduation     = 'https://norfolkacademy.myschoolapp.com/ftpimages/233/download/belfry%20graduation%202012.pdf';
     $url_speech         = 'https://issuu.com/the_academy/docs/na_mag_winter2012_final/4';
+    $url_water          = \Globe::waterUrl();
     $url_seed           = 'https://pitchbook.com/profiles/company/229455-82';
     
 ?>
@@ -38,7 +40,7 @@
     </p>
 
     <h4>Timeline</h4>
-    <ul style="padding-left: 15px">
+    <ul style="padding-left: 15px;">
         <li>
             1993 - Born a Leo.
         </li>
@@ -50,13 +52,13 @@
             and begin a lifetime of pursuing the Greek ideal: cultivating mind, body, soul, and universality.
         </li>
         <li>
-            2012, Spring - <a>Graduate</a> Norfolk Academy as
+            2012, Spring - <a target="_blank" href="{{ $url_yearbook }}">Graduate</a> Norfolk Academy as
             
             <a target="_blank" href="{{ $url_graduation }}">Valedictorian</a>, and snag the annual
             
             <a target="_blank" href="{{ $url_speech }}">speech award</a>
             
-            as well. You can read my valedictory address <a target="_blank" href="{{ $url_valediction }}">here</a>.
+            as well. You can read my valedictory address <a target="_blank" href="{{ $url_valediction }}">here</a>, and my other speech <a target="_blank" href="{{ $url_water }}">here</a>.
         </li>
         <li>
             2012, Fall - Attend the University of Texas at Austin for three semesters with an Engineering Honors scholarship and dual major in Computer Science and Mathematics, completing about 70% of my credits to graduation.

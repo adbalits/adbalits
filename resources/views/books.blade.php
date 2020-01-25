@@ -145,6 +145,12 @@ About
         $book_url       = $router->book($book)->url();
         $hasBottom      = $book->hasBottomLine();
         $bottom_str     = $book->vmBottomLine();
+
+        $hasWik      = isset($book->wik_url) && !empty($book->wik_url);
+        $hasAzn      = isset($book->azn_url) && !empty($book->azn_url);
+        $hasLinks    = $hasAzn || $hasWik;
+        $azn_url     = $book->azn_url;
+        $wik_url     = $book->wik_url;
     ?>
     <div class="book_wrapper">
         <a href={{ $book_url }}>
@@ -167,6 +173,22 @@ About
             @if($hasBottom)
             <h6 style="color:grey;font-size:14px;">
                 {{ $bottom_str }}
+            </h6>
+            @endif
+
+            @if($hasLinks)
+            <h6 style="color:grey;font-size:14px;">
+                @if($hasAzn)
+                <a class="ab_link" href={{ $azn_url}} target="_blank">
+                    See on Amazon
+                </a>
+                @endif
+
+                @if($hasWik)
+                <a class="ab_link" style="margin-left:5px" href={{ $wik_url }} target="_blank">
+                    See on Wikipedia
+                </a>
+                @endif
             </h6>
             @endif
 

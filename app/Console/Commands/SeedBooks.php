@@ -54,6 +54,8 @@ class SeedBooks extends Command
             $slug       = $item['slug'] ?? null;
             $subtitle   = $item['subtitle'] ?? null;
             $summary    = $item['summary'] ?? null;
+            $azn_url    = $item['azn_url'] ?? null;
+            $wik_url    = $item['wik_url'] ?? null;
 
 
             //
@@ -73,6 +75,8 @@ class SeedBooks extends Command
                 'summary'   => $summary,
                 'slug'      => $slug,
                 'img_name'  => $img_name,
+                'azn_url'   => $azn_url,
+                'wik_url'   => $wik_url,
             ];
             if(empty($title) || empty($author) || ! is_integer($rating))
             {

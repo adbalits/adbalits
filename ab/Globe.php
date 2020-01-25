@@ -37,6 +37,14 @@ class Globe
     /**
      * @return string
      */
+    public static function waterUrl()
+    {
+        return url('media/water.pdf');
+    }
+
+    /**
+     * @return string
+     */
     public static function dot()
     {
         return '•';

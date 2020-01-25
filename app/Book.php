@@ -15,6 +15,7 @@ class Book extends Model
         'isbn13',
         'date_read',
         'azn_url',
+        'wik_url',
         'category',
         'img_name',
         'slug',
