@@ -42,9 +42,13 @@ class BookRepo
                 }
                 else
                 {
-                    $books->orderBy('title');
+                    $books->orderBy('alpha');
                 }
             }
+        }
+        else
+        {
+            $books->orderBy('alpha');
         }
 
         return $books->get();

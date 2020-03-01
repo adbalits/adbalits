@@ -10,6 +10,7 @@ class Book extends Model
         'title',
         'author',
         'rating',
+        'alpha',
         //
         'isbn10',
         'isbn13',
@@ -129,5 +130,24 @@ class Book extends Model
         }
 
         return $this->rating.'/10';
+    }
+
+    /**
+     * Given a title, calculate what it's alphabetical index should be
+     * 
+     * @return string
+     */
+    public static function calculateAlphaIndex($title){
+        $beginsWithA = ltrim(substr($title, 0, 2)) === 'A ';
+        if($beginsWithA){
+            return substr($title, 2);
+        }
+
+        $beginsWithThe = ltrim(substr($title, 0, 4)) === 'The ';
+        if($beginsWithThe) {
+            return substr($title, 4);
+        }
+
+        return $title;
     }
 }

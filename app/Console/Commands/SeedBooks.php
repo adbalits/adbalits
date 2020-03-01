@@ -46,6 +46,7 @@ class SeedBooks extends Command
         foreach($data as $item)
         {
             $title  = $item['title'];
+            $alpha  = \App\Book::calculateAlphaIndex($title);
             $author = $item['author'];
             $rating = $item['rating'];
             $category   = $item['category'] ?? null;
@@ -57,7 +58,6 @@ class SeedBooks extends Command
             $azn_url    = $item['azn_url'] ?? null;
             $wik_url    = $item['wik_url'] ?? null;
 
-
             //
             // Prepare the data
             //
@@ -68,6 +68,7 @@ class SeedBooks extends Command
             $allInfo = [
                 'title'     => $title,
                 'subtitle'  => $subtitle,
+                'alpha'     => $alpha,
                 'author'    => $author,
                 'rating'    => $rating,
                 'category'  => $category,
