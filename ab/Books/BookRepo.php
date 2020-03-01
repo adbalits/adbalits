@@ -9,6 +9,17 @@ class BookRepo
     {
         $books = (new Book())->newQuery();
 
+        $hasKeyword = isset($_GET['keyword']) && (strlen($_GET['keyword']) > 2);
+        if($hasKeyword)
+        {
+            $keyword = $_GET['keyword'];
+            $str = '%'.$keyword.'%';
+            return $books->where('title','LIKE', $str)
+                ->orWhere('subtitle', 'LIKE', $str)
+                ->orWhere('author', 'LIKE', $str)
+                ->get();
+        }
+
         $hasCategory = isset($_GET['category']);
         if($hasCategory)
         {

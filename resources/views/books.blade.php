@@ -62,6 +62,13 @@ About
         ? sprintf(' - sorted by %s', $_GET['sortby'])
         : '';
     $results_str = sprintf('%d Results %s %s', $count, $cat_str, $sort_str);
+
+    $hasKeyword = isset($_GET['keyword']);
+    $pluralizer = ($count === 1) ? '' :'s';
+    if($hasKeyword){
+        $keyword = $_GET['keyword'];
+        $results_str = sprintf('%d Result%s for "%s"', $count, $pluralizer, $keyword);
+    }
 ?>
 <div class="books_container">
 
@@ -103,6 +110,8 @@ About
         <a href="{{ $url_cat_nonfic}}" class="ab_link">non-fiction</a>,
 
         and <a href="{{ $url_cat_theory}}" class="ab_link">theory</a>.
+
+        @include('partials.searchBooks')
     </p>
 
 
