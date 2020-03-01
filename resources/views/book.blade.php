@@ -16,6 +16,12 @@
     $img_filepath   = $book->imgFilepath();
     $hasBottom      = $book->hasBottomLine();
     $bottom_str     = $book->vmBottomLine();
+
+    $hasWik      = isset($book->wik_url) && !empty($book->wik_url);
+    $hasAzn      = isset($book->azn_url) && !empty($book->azn_url);
+    $hasLinks    = $hasAzn || $hasWik;
+    $azn_url     = $book->azn_url;
+    $wik_url     = $book->wik_url;
     
 ?>
 <div class="books_container">
@@ -38,8 +44,24 @@
     @endif
     <hr class="short_line" style="border-color:grey;"/>
 
+    <div style="display: flex; flex-direction: row;">
     <img class="book_cover" src="{{ $img_filepath }}" alt="{{ $book_title }}" style=""/>
-    
+    @if($hasLinks)
+    <h6 style="color:grey;font-size:18px;">
+        @if($hasAzn)
+        <a class="ab_link" href={{ $azn_url}} target="_blank" style="display: block; margin-top: 5px;">
+            See on Amazon
+        </a>
+        @endif
+
+        @if($hasWik)
+        <a class="ab_link"  href={{ $wik_url }} target="_blank" style="display: block; margin-top: 5px;">
+            See on Wikipedia
+        </a>
+        @endif
+    </h6>
+    @endif
+    </div>
 </div>
 </div>
 

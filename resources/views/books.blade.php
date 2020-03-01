@@ -61,10 +61,11 @@ About
     $sort_str = isset($_GET['sortby'])
         ? sprintf(' - sorted by %s', $_GET['sortby'])
         : '';
-    $results_str = sprintf('%d Results %s %s', $count, $cat_str, $sort_str);
+
+    $pluralizer = ($count === 1) ? '' :'s';
+    $results_str = sprintf('%d Result%s %s %s', $count, $pluralizer, $cat_str, $sort_str);
 
     $hasKeyword = isset($_GET['keyword']);
-    $pluralizer = ($count === 1) ? '' :'s';
     if($hasKeyword){
         $keyword = $_GET['keyword'];
         $results_str = sprintf('%d Result%s for "%s"', $count, $pluralizer, $keyword);
