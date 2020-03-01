@@ -179,13 +179,13 @@ About
             @if($hasLinks)
             <h6 style="color:grey;font-size:14px;">
                 @if($hasAzn)
-                <a class="ab_link" href={{ $azn_url}} target="_blank">
+                <a class="ab_link" href={{ $azn_url}} target="_blank" style="display: block; margin-top: 5px;">
                     See on Amazon
                 </a>
                 @endif
 
                 @if($hasWik)
-                <a class="ab_link" style="margin-left:5px" href={{ $wik_url }} target="_blank">
+                <a class="ab_link"  href={{ $wik_url }} target="_blank" style="display: block; margin-top: 5px;">
                     See on Wikipedia
                 </a>
                 @endif

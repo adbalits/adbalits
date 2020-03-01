@@ -48,13 +48,22 @@ class BookDictionary
                 'date_read' => '2011-05-31',
             ],
             [
+                'title'     => 'The Adventures of Huckleberry Finn',
+                'author'    => 'Mark Twain',
+                'rating'    => 0,
+                'category'  => 'literature',
+                'slug'      => 'adventures-of-huckleberry-finn',
+                'img_name'  => 'adventures_huckleberry.jpg',
+                'date_read' => '2011-05-31',
+            ],
+            [
                 'title'     => 'Art',
                 'author'    => 'Yasmina Reza',
                 'rating'    => 0,
                 'category'  => 'foreign',
                 'slug'      => 'art',
                 'img_name'  => 'art.jpg',
-                'date_read' => '2010-05-31',
+                'date_read' => '2011-05-31', // guess
             ],
             [
                 'title'     => 'Aroused',
@@ -205,6 +214,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'the-catcher-in-the-rye',
                 'img_name'  => 'catcher.jpg',
+                'date_read' => '2008-12-31',
             ],
             [
                 'title'     => 'The Charisma Myth',
@@ -243,6 +253,18 @@ class BookDictionary
                 'category'  => 'nonfiction',
                 'slug'      => 'clean-code',
                 'img_name'  => 'cleancode.jpg',
+            ],
+            [
+                'title'     => 'Cloud Atlas',
+                'author'    => 'David Mitchell',
+                'rating'    => 0,
+                'category'  => 'fiction',
+                'slug'      => 'cloud-atlas',
+                'img_name'  => 'cloudatlas.jpg',
+                'date_read' => '2011-08-31',
+                // 'alphabetical' => 'Cloud Atlas',
+                'wik_url'  => 'https://en.wikipedia.org/wiki/Cloud_Atlas_%28novel%29',
+                'azn_url'   => 'https://www.amazon.com/Cloud-Atlas-Novel-David-Mitchell/dp/0375507256',
             ],
             [
                 'title'     => 'Conscious',
@@ -344,6 +366,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'the-dark-elf-trilogy',
                 'img_name'  => 'darkelf.jpg',
+                'date_read' => '2005-05-31', // guess
             ],
             [
                 'title'     => 'Death on the Nile',
@@ -379,6 +402,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'the-divine-comedy',
                 'img_name'  => 'divine.jpg',
+                'date_read' => '2010-08-31',
             ],
             [
                 'title'     => 'Don Quixote',
@@ -426,6 +450,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'elantris',
                 'img_name'  => 'elantris.jpg',
+                'date_read' => '2007-12-31', // guess
             ],
             [
                 'title'     => 'Elon Musk',
@@ -444,6 +469,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'enders-game',
                 'img_name'  => 'endersgame.jpg',
+                'date_read' => '2007-08-31', // guess
             ],
             [
                 'title'     => 'Ender\'s Shadow',
@@ -561,7 +587,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'good-poems',
-                'img_name'  => 'goodpoems.jpg'
+                'img_name'  => 'goodpoems.jpg',
+                'date_read' => '2010-05-31',
             ],
             [
                 'title'     => 'The Glass Bead Game',
@@ -653,6 +680,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'harry-potter-and-the-sorcerers-stone',
                 'img_name'  => 'hp1.jpg',
+                'date_read' => '2001-05-31', // guess
             ],
             [
                 'title'     => 'Harry Potter and the Chamber of Secrets',
@@ -661,6 +689,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'harry-potter-and-the-chamber-of-secrets',
                 'img_name'  => 'hp2.jpg',
+                'date_read' => '2002-05-31', // guess
             ],
             [
                 'title'     => 'Harry Potter and the Prisoner of Azkaban',
@@ -669,6 +698,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'harry-potter-and-the-prisoner-of-azkaban',
                 'img_name'  => 'hp3.jpg',
+                'date_read' => '2002-08-31', // guess
             ],
             [
                 'title'     => 'Harry Potter and the Goblet of Fire',
@@ -677,6 +707,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'harry-potter-and-the-goblet-of-fire',
                 'img_name'  => 'hp4.jpg',
+                'date_read' => '2002-12-31', // guess
             ],
             [
                 'title'     => 'Harry Potter and the Order of the Phoenix',
@@ -685,6 +716,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'harry-potter-and-the-order-of-the-phoenix',
                 'img_name'  => 'hp5.jpg',
+                'date_read' => '2003-08-31', // guess
             ],
             [
                 'title'     => 'Harry Potter and the Half-Blood Prince',
@@ -693,6 +725,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'harry-potter-and-the-half-blood-prince',
                 'img_name'  => 'hp6.jpg',
+                'date_read' => '2005-12-31', // guess
             ],
             [
                 'title'     => 'Harry Potter and the Deathly Hallows',
@@ -701,6 +734,17 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'harry-potter-and-the-deathly-hallows',
                 'img_name'  => 'hp7.jpg',
+                'date_read' => '2007-08-31', // guess
+            ],
+            [
+                'title'     => 'Henry Hikes to Fitchburg',
+                // 'alphabetical' => 'Henry Hikes to Fitchburg',
+                'author'    => 'D.B. Johnson',
+                'rating'    => 0,
+                'category'  => 'fiction',
+                'slug'      => 'henry-hikes-to-fitchburg',
+                'img_name'  => 'henry_hikes_to_fitchburg.jpeg',
+                'date_read' => '2000-09-01',
             ],
             [
                 'title'     => 'Hero of Ages',
@@ -718,6 +762,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'the-high-lord',
                 'img_name'  => 'highlord.jpg',
+                'date_read' => '2004-05-31', // guess
             ],
             [
                 'title'     => 'The High Window',
@@ -735,6 +780,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'the-hobbit',
                 'img_name'  => 'hobbit.jpg',
+                'date_read' => '2006-05-31', // guess
             ],
             [
                 'title'     => 'Homo Deus',
@@ -769,6 +815,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'the-house-of-the-scorpion',
                 'img_name'  => 'housescorp.jpg',
+                'date_read' => '2006-05-31', // guess
             ],
             [
                 'title'     => 'The House on Mango Street',
@@ -794,6 +841,7 @@ class BookDictionary
                 'category'  => 'foreign',
                 'slug'      => 'huis-clos',
                 'img_name'  => 'huisclos.jpg',
+                'date_read' => '2011-05-31', // guess
             ],
             [
                 'title'     => 'Hyperion',
@@ -810,6 +858,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'the-icewind-dale-trilogy',
                 'img_name'  => 'icewind.jpg',
+                'date_read' => '2005-05-31', // guess
             ],
             [
                 'title'     => 'The Inflamed Mind',
@@ -902,6 +951,7 @@ class BookDictionary
                 'category'  => 'foreign',
                 'slug'      => 'letranger',
                 'img_name'  => 'letranger.jpg',
+                'date_read' => '2014-02-27',
             ],
             [
                 'title'     => 'The Last Wish',
@@ -918,6 +968,7 @@ class BookDictionary
                 'category'  => 'foreign',
                 'slug'      => 'le-petit-prince',
                 'img_name'  => 'lepetit.jpg',
+                'date_read' => '2010-05-31', // guess
             ],
             [
                 'title'     => 'The Lean Startup',
@@ -938,12 +989,25 @@ class BookDictionary
                 'date_read' => '2019-08-01',
             ],
             [
+                'title'     => 'Life 3.0',
+                'subtitle'  => 'Being Human in the Age of Artificial Intelligence',
+                'author'    => 'Max Tegmark',
+                'rating'    => 9,
+                'category'  => 'theory',
+                'slug'      => 'life-3-0',
+                'img_name'  => 'life30.gif',
+                'date_read' => '2020-02-29',
+                'wik_url'   => 'https://en.wikipedia.org/wiki/Life_3.0',
+                'azn_url'   => 'https://www.amazon.com/dp/1101970316',
+            ],
+            [
                 'title'     => 'Light in August',
                 'author'    => 'William Faulkner',
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'light-in-august',
                 'img_name'  => 'light.jpg',
+                'date_read' => '2010-08-31',
             ],
             [
                 'title'     => 'Lincoln the Unknown',
@@ -961,6 +1025,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'the-lion-in-winter',
                 'img_name'  => 'lion.jpg',
+                'date_read' => '2009-08-31',
             ],
             [
                 'title'     => 'Lolita',
@@ -987,6 +1052,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'lord-of-the-flies',
                 'img_name'  => 'lordflies.jpg',
+                'date_read' => '2009-05-31',
             ],
             [
                 'title'     => 'Lord Valentine\'s Castle',
@@ -1022,6 +1088,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'the-magicians-guild',
                 'img_name'  => 'magician.jpg',
+                'date_read' => '2004-08-31', // guess
             ],
             [
                 'title'     => 'Man\'s Search for Meaning',
@@ -1139,6 +1206,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'night',
                 'img_name'  => 'night.jpg',
+                'date_read' => '2010-08-31', // guess
             ],
             [
                 'title'     => 'Norwegian Wood',
@@ -1156,6 +1224,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'novice',
                 'img_name'  => 'novice.jpg',
+                'date_read' => '2004-08-31', // guess
             ],
             // #O
             [
@@ -1165,6 +1234,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'of-mice-and-men',
                 'img_name'  => 'ofmice.jpg',
+                'date_read' => '2007-05-31', // guess
             ],
             [
                 'title'     => 'The Old Man and the Sea',
@@ -1173,6 +1243,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'the-old-man-and-the-sea',
                 'img_name'  => 'oldman.jpg',
+                'date_read' => '2007-05-31', // guess
             ],
             [
                 'title'     => 'On a Wave',
@@ -1197,7 +1268,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'one-hundred-years-of-solitude',
-                'img_name'  => 'onehundred.jpg'
+                'img_name'  => 'onehundred.jpg',
+                'date_read' => '2009-08-31', // guess
             ],
             [
                 'title'     => 'Othello',
@@ -1225,6 +1297,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'the-pearl',
                 'img_name'  => 'pearl.jpg',
+                'date_read' => '2007-05-31', // guess
             ],
             [
                 'title'     => 'The Personal MBA',
@@ -1287,6 +1360,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'a-raisin-in-the-sun',
                 'img_name'  => 'raisin.jpg',
+                'date_read' => '2009-05-31', // guess
             ],
             [
                 'title'     => 'Ready, Player One',
@@ -1359,7 +1433,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'a-separate-peace',
-                'img_name'  => 'separate.jpg'
+                'img_name'  => 'separate.jpg',
+                'date_read' => '2007-08-31', // guess
             ],
             [
                 'title'     => 'Seveneves',
@@ -1385,7 +1460,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'sir-gawain-and-the-green-knight',
-                'img_name'  => 'sirgawain.jpg'
+                'img_name'  => 'sirgawain.jpg',
+                'date_read' => '2009-12-31',
             ],
             [
                 'title'     => 'Slaughterhouse-Five',
@@ -1429,7 +1505,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'the-sound-and-the-fury',
-                'img_name'  => 'soundfury.jpg'
+                'img_name'  => 'soundfury.jpg',
+                'date_read' => '2010-08-31',
             ],
             [
                 'title'     => 'Stardust',
@@ -1509,7 +1586,20 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'a-tale-of-two-cities',
-                'img_name'  => 'taleoftwo.jpg'
+                'img_name'  => 'taleoftwo.jpg',
+                'date_read' => '2011-08-31',
+            ],
+            [
+                'title'     => 'Tao te Ching',
+                'author'    => 'Lao Tzu',
+                'rating'    => 0,
+                'category'  => 'theory',
+                'slug'      => 'tao-te-ching-ypo',
+                'img_name'  => 'tao_te_ching_ypo.jpg',
+                'date_read' => '2020-02-06',
+                // 'alphabetical' => 'Tao te Ching',
+                'wik_url'  => 'https://en.wikipedia.org/wiki/Tao_Te_Ching',
+                'azn_url'   => 'https://www.amazon.com/Tao-Ching-Barnes-Noble-Classics/dp/1593082568?',
             ],
             [
                 'title'     => 'The Tempest',
@@ -1573,7 +1663,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'to-kill-a-mockingbird',
-                'img_name'  => 'tokill.jpg'
+                'img_name'  => 'tokill.jpg',
+                'date_read' => '2010-12-31', // guess
             ],
             [
                 'title'     => 'The Trial',
@@ -1599,7 +1690,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'tropic-of-cancer',
-                'img_name'  => 'tropic.jpg'
+                'img_name'  => 'tropic.jpg',
+                'date_read' => '2010-08-31', // guess
             ],
             [
                 'title'     => 'The Truth',
@@ -1742,6 +1834,7 @@ class BookDictionary
                 'category'  => 'nonfiction',
                 'slug'      => 'zero',
                 'img_name'  => 'zero.jpg',
+                'date_read' => '2009-12-31',
             ],
             [
                 'title'     => 'Zero to One',
