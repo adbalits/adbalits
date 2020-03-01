@@ -65,7 +65,8 @@ About
     $pluralizer = ($count === 1) ? '' :'s';
     $results_str = sprintf('%d Result%s %s %s', $count, $pluralizer, $cat_str, $sort_str);
 
-    $hasKeyword = isset($_GET['keyword']);
+    $hasKeyword = isset($_GET['keyword']) 
+        && (strlen($_GET['keyword']) > 2);
     if($hasKeyword){
         $keyword = $_GET['keyword'];
         $results_str = sprintf('%d Result%s for "%s"', $count, $pluralizer, $keyword);
