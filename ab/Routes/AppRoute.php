@@ -25,7 +25,9 @@ class AppRoute
         $result = '?';
         foreach($params as $key => $value)
         {
-            $result.=sprintf('%s=%s', $key, $value);
+            $result.= ($result==='?')
+                ? sprintf('%s=%s', $key, $value)
+                : sprintf('&%s=%s', $key, $value);
         }
         return $result;
     }

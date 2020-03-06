@@ -12,50 +12,51 @@ About
     $url_gates  = 'https://www.gatesnotes.com/Books';
     $url_search = $router->books()->url();
 
+
     // SORTINGS
-    // #todo #cathat allow these urls to combine additively with category GET param
-    // #todo #cathat allow these urls to combine additively with category GET param
-    // #todo #cathat allow these urls to combine additively with category GET param
-    $url_sortby_rating = $router->books([
+    $params = \Request::input();
+    $origParams = \Request::input();
+    // dd($origParams);
+    $url_sortby_rating = $router->books(array_merge($origParams, [
         'sortby' => 'rating'
-    ])->url();
-    $url_sortby_latest = $router->books([
+    ]))->url();
+    $url_sortby_latest = $router->books(array_merge($origParams, [
         'sortby' => 'latest'
-    ])->url();
-    $url_sortby_alpha  = $router->books([
+    ]))->url();
+    $url_sortby_alpha  = $router->books(array_merge($origParams, [
         'sortby' => 'alphabetical'
-    ])->url();
+    ]))->url();
 
     // CATEGORIES
-    // #todo #cathat allow these urls to combine additively with sortby GET param
-    // #todo #cathat allow these urls to combine additively with sortby GET param
-    // #todo #cathat allow these urls to combine additively with sortby GET param
-    $url_cat_biography = $router->books([
+    $url_cat_any = $router->books(array_merge($origParams, [
+        'category' => '',
+    ]))->url();
+    $url_cat_biography = $router->books(array_merge($origParams, [
         'category' => 'biography',
-    ])->url();
-    $url_cat_business = $router->books([
+    ]))->url();
+    $url_cat_business = $router->books(array_merge($origParams, [
         'category' => 'business',
-    ])->url();
-    $url_cat_fiction = $router->books([
+    ]))->url();
+    $url_cat_fiction = $router->books(array_merge($origParams, [
         'category' => 'fiction',
-    ])->url();
-    $url_cat_foreign = $router->books([
+    ]))->url();
+    $url_cat_foreign = $router->books(array_merge($origParams, [
         'category' => 'foreign',
-    ])->url();
-    $url_cat_literature = $router->books([
+    ]))->url();
+    $url_cat_literature = $router->books(array_merge($origParams, [
         'category' => 'literature',
-    ])->url();
-    $url_cat_nonfic = $router->books([
+    ]))->url();
+    $url_cat_nonfic = $router->books(array_merge($origParams, [
         'category' => 'nonfiction',
-    ])->url();
-    $url_cat_theory = $router->books([
+    ]))->url();
+    $url_cat_theory = $router->books(array_merge($origParams, [
         'category' => 'theory',
-    ])->url();
+    ]))->url();
 
 
     $count   = $books->count();
     $isEmpty = ($books->count() === 0);
-    $cat_str = isset($_GET['category'])
+    $cat_str = (isset($_GET['category']) && !empty($_GET['category']))
         ? sprintf('- %s', ucfirst($_GET['category']))
         : '';
     $sort_str = isset($_GET['sortby'])
@@ -69,7 +70,7 @@ About
         && (strlen($_GET['keyword']) > 2);
     if($hasKeyword){
         $keyword = $_GET['keyword'];
-        $results_str = sprintf('%d Result%s for "%s"', $count, $pluralizer, $keyword);
+        $results_str = sprintf('%d Result%s for "%s" %s %s', $count, $pluralizer, $keyword, $cat_str, $sort_str);
     }
 ?>
 <div class="books_container">
@@ -98,6 +99,8 @@ About
         or <a href="{{ $url_sortby_alpha }}" class="ab_link">alphabetical</a>.
 
         Or try looking at these categories:
+
+        <a href="{{ $url_cat_any }}" class="ab_link">any</a>,
 
         <a href="{{ $url_cat_biography }}" class="ab_link">biography</a>,
 

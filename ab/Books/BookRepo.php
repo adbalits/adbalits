@@ -14,13 +14,13 @@ class BookRepo
         {
             $keyword = $_GET['keyword'];
             $str = '%'.$keyword.'%';
-            return $books->where('title','LIKE', $str)
+            $books->where('title','LIKE', $str)
                 ->orWhere('subtitle', 'LIKE', $str)
                 ->orWhere('author', 'LIKE', $str)
                 ->get();
         }
 
-        $hasCategory = isset($_GET['category']);
+        $hasCategory = isset($_GET['category']) && !empty($_GET['category']);
         if($hasCategory)
         {
             $category = $_GET['category'];

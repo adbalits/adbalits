@@ -253,6 +253,7 @@ class BookDictionary
                 'category'  => 'nonfiction',
                 'slug'      => 'clean-code',
                 'img_name'  => 'cleancode.jpg',
+                'date_read' => '2016-01-01',
             ],
             [
                 'title'     => 'Cloud Atlas',
@@ -993,7 +994,7 @@ class BookDictionary
                 'subtitle'  => 'Being Human in the Age of Artificial Intelligence',
                 'author'    => 'Max Tegmark',
                 'rating'    => 9,
-                'category'  => 'theory',
+                'category'  => 'nonfiction',
                 'slug'      => 'life-3-0',
                 'img_name'  => 'life30.gif',
                 'date_read' => '2020-02-29',
@@ -1080,6 +1081,7 @@ class BookDictionary
                 'category'  => 'nonfiction',
                 'slug'      => 'made-to-stick',
                 'img_name'  => 'made.jpg',
+                'date_read' => '2015-09-30',
             ],
             [
                 'title'     => 'The Magician\'s Guild',
@@ -1455,6 +1457,15 @@ class BookDictionary
                 'date_read' => '2018-01-01',
             ],
             [
+                'title'     => 'Silk Parachute',
+                'author'    => 'John McPhee',
+                'rating'    => 0,
+                'category'  => 'nonfiction',
+                'slug'      => 'silk-parachute',
+                'img_name'  => 'silk_parachute.jpg',
+                'date_read' => '2012-08-31',
+            ],
+            [
                 'title'     => 'Sir Gawain and the Green Knight',
                 'author'    => 'J.R.R. Tolkien (translator)',
                 'rating'    => 0,
@@ -1711,6 +1722,7 @@ class BookDictionary
                 'category'  => 'business',
                 'slug'      => 'venture-deals',
                 'img_name'  => 'venturedeals.jpg',
+                'date_read' => '2015-07-31',
             ],
             [
                 'title'     => 'Vineland',
