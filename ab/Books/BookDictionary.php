@@ -574,6 +574,19 @@ class BookDictionary
                 'date_read' => '2014-02-01',
             ],
             [
+                'title'     => 'The Gene',
+                'subtitle'  => 'An Intimate History',
+                'author'    => 'Siddhartha Mukherjee',
+                'rating'    => 8,
+                'category'  => 'nonfiction',
+                'slug'      => 'the-gene',
+                'img_name'  => 'the_gene.jpg',
+                'date_read' => '2020-04-15',
+                'wik_url'   => 'https://en.wikipedia.org/wiki/The_Gene:_An_Intimate_History',
+                'azn_url'   => 'https://www.amazon.com/dp/1432837818',
+                'tags'       => 'nonfiction,pop-science,biology,medicine',
+            ],
+            [
                 'title'     => 'The Giver',
                 'author'    => 'Lois Lowry',
                 'rating'    => 0,
@@ -926,6 +939,19 @@ class BookDictionary
                 'date_read' => '2014-10-01',
             ],
             [
+                'title'     => 'Jours Barbares (Barbarian Days)',
+                'subtitle'  => '',
+                'author'    => 'William Finnegan',
+                'rating'    => 0,
+                'category'  => 'foreign',
+                'slug'      => 'jours-barbares',
+                'img_name'  => 'jours_barbares.jpg',
+                'date_read' => '2020-04-28',
+                'wik_url'   => 'https://en.wikipedia.org/wiki/William_Finnegan',
+                'azn_url'   => 'https://www.amazon.com/Barbarian-Days-Surfing-William-Finnegan/dp/0143109391',
+                'tags'       => 'foreign,french,literature,memoir',
+            ],
+            [
                 'title'     => 'Julius Caesar',
                 'author'    => 'William Shakespeare',
                 'rating'    => 0,
@@ -1254,6 +1280,7 @@ class BookDictionary
                 'category'  => 'biography',
                 'slug'      => 'on-a-wave',
                 'img_name'  => 'onawave.jpg',
+                'date_read' => '2008-08-31', // guess
             ],
             [
                 'title'     => 'On the Road',
@@ -1317,6 +1344,7 @@ class BookDictionary
                 'category'  => 'biography',
                 'slug'      => 'pipe-dreams',
                 'img_name'  => 'pipedreams.jpg',
+                'date_read' => '2007-08-31', // guess
             ],
             [
                 'title'     => 'Player Piano',
@@ -1463,7 +1491,7 @@ class BookDictionary
                 'category'  => 'nonfiction',
                 'slug'      => 'silk-parachute',
                 'img_name'  => 'silk_parachute.jpg',
-                'date_read' => '2012-08-31',
+                'date_read' => '2012-08-31', // guess
             ],
             [
                 'title'     => 'Sir Gawain and the Green Knight',
@@ -1857,25 +1885,19 @@ class BookDictionary
                 'img_name'  => 'zero21.jpg',
                 'date_read' => '2015-05-01',
             ],
-            // #EXTRA
+            // #TEMPLATE
             [
                 'title'     => '',
+                'subtitle'  => '',
                 'author'    => '',
                 'rating'    => 0,
                 'category'  => 'nonfiction',
-                'img_name'   => '',
-            ],
-            [
-                'title'     => '',
-                'author'    => '',
-                'rating'    => 0,
-                'category'  => '',
-            ],
-            [
-                'title'     => '',
-                'author'    => '',
-                'rating'    => 0,
-                'category'  => 'nonfiction',
+                'slug'      => '',
+                'img_name'  => '',
+                'date_read' => '',
+                // 'wik_url'   => 'https://en.wikipedia.org/wiki/Life_3.0',
+                // 'azn_url'   => 'https://www.amazon.com/dp/1101970316',
+                // 'tags'       => '',
             ],
         ];
     }
