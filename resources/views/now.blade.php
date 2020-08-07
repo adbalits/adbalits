@@ -88,7 +88,7 @@
 
         What I can say is this: it's been a pretty random walk to get to this point.
 
-        I started in a bit of a fog. After I left my company I wasn't entirely sure what I wanted to do next, wasn't entirely sure what path to follow.
+        It started in a bit of a fog. After I left my company I wasn't entirely sure what I wanted to do next, wasn't entirely sure what path to follow.
 
         I started doing a lot of research, trying to survey the landscape of science and technology, trying to assess what skills could lead to what opportunities.
 
@@ -101,13 +101,13 @@
 
         To supercharge that learning, I decided I would build a digital version of the largely pen-and-paper self-tracking system that I had been keeping for so many years before.
 
-        However, the more I built, the more I wanted to build, one thing led to another, and now I have started the second company in my life (or third, depending on
+        However, the more I built, the more I wanted to build, one thing led to another, and now I have started the second company in my life (or 
 
-        <a target="_blank" href="{{ $url_rbc1 }}">how</a>
+        <a target="_blank" href="{{ $url_rbc1 }}">third</a>, depending
 
-        <a target="_blank" href="{{ $url_rbc2 }}">we</a>
+        <a target="_blank" href="{{ $url_rbc2 }}">on</a> how 
 
-        <a target="_blank" href="{{ $url_rbc3 }}">count</a>
+        <a target="_blank" href="{{ $url_rbc3 }}">we</a> count
 
         <a target="_blank" href="{{ $url_rbc4 }}">this</a>)
 

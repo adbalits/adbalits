@@ -5,3 +5,4 @@
 * __1.1.3__- Sat Feb 29 2020 - Implement alphabetical indexing and searching over the bookshelf. 
 * __1.1.4__- Sat Feb 29 2020 - Add a small search form to the bookshelf.
 * __1.1.5__- Sat Feb 29 2020 - Allow sort and category GET params to combine additively on the bookshelf. 
+* __1.1.6__- Fri Aug 07 2020 - Update /now and commit small adjustments.
