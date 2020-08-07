@@ -45,8 +45,11 @@
     <hr class="short_line" style="border-color:grey;"/>
 
     <div style="display: flex; flex-direction: row;">
-    <img class="book_cover" src="{{ $img_filepath }}" alt="{{ $book_title }}" style=""/>
+    <div style="flex: 1;">
+    <img class="book_cover" src="{{ $img_filepath }}" alt="{{ $book_title }}" style="height: auto;"/>
+    </div>
     @if($hasLinks)
+    <div style="flex: 1;">
     <h6 style="color:grey;font-size:18px;">
         @if($hasAzn)
         <a class="ab_link" href={{ $azn_url}} target="_blank" style="display: block; margin-top: 5px;">
@@ -60,6 +63,7 @@
         </a>
         @endif
     </h6>
+    </div>
     @endif
     </div>
 </div>

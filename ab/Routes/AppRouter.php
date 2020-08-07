@@ -27,6 +27,11 @@ class AppRouter
         return $this->process('now');
     }
 
+    public function words()
+    {
+        return $this->process('words');
+    }
+
     public function process($route, $params = null)
     {
         return new AppRoute($route, $params);

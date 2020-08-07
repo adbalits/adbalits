@@ -26,6 +26,18 @@
     $url_dviz   = 'https://www.udacity.com/course/data-visualization-and-d3js--ud507';
     $url_pma    = 'https://www.amazon.com/Principles-Mathematical-Analysis-International-Mathematics/dp/007054235X';
     $url_m365   = 'https://web.ma.utexas.edu/academics/courses/syllabi/M365C.php';
+    $url_2020   = url('/images/2020.png');
+    $url_2019   = url('/images/2019.png');
+    $url_books  = approuter()->books([
+        'sortby' => 'latest',
+    ])->url();
+    $url_qs = 'https://quantifiedself.com/';
+    $url_ultra = 'https://www.scotthyoung.com/blog/ultralearning/';
+    $url_rbc1 = url('/images/rbc1.jpg');
+    $url_rbc2 = url('/images/rbc2.jpg');
+    $url_rbc3 = url('/images/rbc3.jpg');
+    $url_rbc4 = url('/images/rbc4.jpg');
+
 ?>
 <div class="books_container">
 <div class="books_backdrop">
@@ -40,29 +52,81 @@
 
     <h4>What I'm doing now</h4>
     <p class="ab_text">
-        After coming back from a long surf/road trip with my brother, since early November I've been splitting my time between <a target="_blank" href={{ $url_asbury }}>New Jersey</a>, Virginia, and the Outer Banks.
+        It's been seven months since my last update, but, for better or worse, not much has changed for me.
 
-        I'm now just a hair past six months into my sabbatical, which means it's past half-time, and so I'm rushing like mad to finish a few projects that I've been aching to undertake for years. 
-    </p>
+        When the pandemic broke out I left my place in Asbury Park NJ and moved back south, first to the Outer Banks (catching waves, not viruses), and now here in Virginia.
 
-    <p>
-        Somebody asked me in November how it was going (my sabbatical). I was a little embarassed to say "not that great," 
-        
-        at least in a professional sense. I hadn't <a target="_blank" href={{ $url_frog }}>eaten the frog</a> yet, to borrow Brian Tracy's terminology,
+        Other than that, I'm still on my sabbatical (just over a year since I left my first venture), still spending most of my good time holed-up and programming
 
-        and hadn't yet spent the hours on the heftiest parts of my todo list. True, I could cross "silent retreat" and "surf travel" from my list, but that hardly makes for CV material. 
-    </p>
+        (glad to see my <a target="_blank" href={{ $url_2020 }}>2020</a> stats are smoking my stats from <a target="_blank" href={{ $url_2019}}>2019</a>),
 
-    <p>
-        So lately I've tried to set aside every good hour for mathematics and programming, before I'm sucked back into the tech scene this summer. Mathematically, I've been craving some kind of resolution to my first failed encounter with Walter Rudin's <a target="_blank" href="{{ $url_pma }}">Principles of Mathematical Analysis</a> (when I dropped <a target="_blank" href="{{ $url_m365 }}">M365C</a> at UTexas in '13).
+        still spreading the rest over the usual sports, <a target="_blank" href={{ $url_books }}>reading</a>, instruments.
 
-        So I've been following a cobbled-together self-study program through the material with the help of Francis Su's spectacular <a target="_blank" href="{{ $url_su }}">lectures</a> on Real Analyis, Rudin's PMA textbook itself, and homework assignments from the class I took. 
+     </p>
 
-        Programatically, I've been itching to kill two birds with one stone by training my <a target="_blank" href="{{ $url_dsci }}">data science</a> / <a target="_blank" href="{{$url_dviz}}">data visualization</a> skills while building a fullstack application for a personal lab experiment, but perhaps more on that later. #researchAndDevelopment
+
+    <div class="now_img_wrapper">
+        <img src="{{ $url_2019 }}" class="now_img"/>
+    </div>
+
+    <div class="now_img_wrapper">
+        <img src="{{ $url_2020 }}" class="now_img"/>
+    </div>
+
+     <h4 class="ab_h4">Sabbatical</h4>
+     <p class="ab_text">
+        It's been a blessing to spend this last year on my own pursuits but now I'm itching to get out of my hobbit hole. First, though, I want to finish this project.
+
+        The plan is to release an iOS application that I've been building since January that serves as the cornerstone of a much bigger thing, which is a comprehensive health, wellness, and productivity self-tracking system that I have been developing since I was 15.
+
+        (Yes, yet another <a target="_blank" href="{{ $url_qs }}">Quantified Self</a>).
+
+        I'll have more to say about it soon enough.
+
+        <br />
+        <br />
+
+        What I can say is this: it's been a pretty random walk to get to this point.
+
+        I started in a bit of a fog. After I left my company I wasn't entirely sure what I wanted to do next, wasn't entirely sure what path to follow.
+
+        I started doing a lot of research, trying to survey the landscape of science and technology, trying to assess what skills could lead to what opportunities.
+
+        Ultimately, data science and data visualization seemed like a good bet for me, with an emphasis on web and mobile products.
+
+        <br />
+        <br />
+
+        So I set a goal of <a target="_blank" href="{{ $url_ultra }}">ultralearning</a> and decided to upgrade my heavily back-end and PHP-skewed programming chops so that I'd be far more versatile in JavaScript/ES6, TypeScript, React, React Native, and D3.js development as well.
+
+        To supercharge that learning, I decided I would build a digital version of the largely pen-and-paper self-tracking system that I had been keeping for so many years before.
+
+        However, the more I built, the more I wanted to build, one thing led to another, and now I have started the second company in my life (or third, depending on
+
+        <a target="_blank" href="{{ $url_rbc1 }}">how</a>
+
+        <a target="_blank" href="{{ $url_rbc2 }}">we</a>
+
+        <a target="_blank" href="{{ $url_rbc3 }}">count</a>
+
+        <a target="_blank" href="{{ $url_rbc4 }}">this</a>)
+
+        and the very long to-do list at the start of this sabbatical has whittled down at last, but a few things yet remain.
+
+     </p>
+
+     <h4 class="ab_h4">Ahead</h4>
+    <p class="ab_text">
+        I've been fortunate to cross a lot of life goals from my bucket list but there are two in particular that have been staring me in the face:
+
+        one, to grow my network of professional peers, mentors, colleagues, etc; and two, to work with artificial intelligence.
+
+        For the time being, I'll tighten up my data science and data viz skills, release this product, and we'll see what lies ahead.
+
     </p>
 
     <p class="ab_text" style="color:white; color: grey;">
-        Updated: January 9
+        Updated: August 7
     </p>
 
     <hr class="ab_endpage" />

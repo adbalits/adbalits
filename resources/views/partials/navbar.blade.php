@@ -5,10 +5,14 @@
     $route_about = $router->about()->route();
     $route_books = $router->books()->route();
     $route_now   = $router->now()->route();
+    $route_words = $router->words()->route();
 
     $url_about   = $router->about()->url();
-    $url_books   = $router->books()->url();
+    $url_books   = $router->books([
+        'sortby' => 'latest'
+    ])->url();
     $url_now     = $router->now()->url();
+    $url_words   = $router->words()->url();
 
     $extraNavStyles = \Request::is('/')
         ? 'background-color: transparent;'
@@ -38,6 +42,12 @@
                 Books
             </a>
         </li>
+
+        <!-- <li class="nav-item {{ \Request::is($route_words)?'active':'' }}">
+            <a class="nav-link" href="{{ $url_now }}">
+                Words
+            </a>
+        </li> -->
 
         <li class="nav-item {{ \Request::is($route_now)?'active':'' }}">
             <a class="nav-link" href="{{ $url_now }}">

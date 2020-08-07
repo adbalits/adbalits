@@ -20,3 +20,5 @@ yarn-error.log
 .vagrant/
 after.sh
 Vagrantfile
+
+.DS_Store

@@ -40,3 +40,29 @@
   position: relative;
   width: 100%;
 }
+.now_img_wrapper
+{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: auto;
+//  background-color: red;
+}
+.now_img
+{
+  width: 100%;
+  height: auto;
+  transition: all 0.2s ease;
+  opacity: 0.8;
+  &:hover{
+    opacity: 0.95;
+  }
+}
+.adb_h4
+{
+  margin-top: 35px;
+}
+.ab_h4
+{
+  margin-top: 35px;
+}
