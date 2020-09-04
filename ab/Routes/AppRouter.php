@@ -22,6 +22,11 @@ class AppRouter
         return $this->process('books', $params);
     }
 
+    public function contact()
+    {
+        return 'mailto:contact@adbalits.com';
+    }
+
     public function now()
     {
         return $this->process('now');

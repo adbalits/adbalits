@@ -596,7 +596,7 @@ class BookDictionary
                 'date_read' => '2020-04-15',
                 'wik_url'   => 'https://en.wikipedia.org/wiki/The_Gene:_An_Intimate_History',
                 'azn_url'   => 'https://www.amazon.com/dp/1432837818',
-                'tags'       => 'nonfiction,pop-science,biology,medicine',
+                'tags'       => 'nonfiction,pop-science,biology,medicine,genetics',
             ],
             [
                 'title'     => 'The Giver',
@@ -1471,6 +1471,19 @@ class BookDictionary
                 'slug'      => 'scarlet',
                 'img_name'  => 'scarlet.jpg',
                 'date_read' => '2010-08-31',
+            ],
+            [
+                'title'     => 'The Selfish Gene',
+                'subtitle'  => '',
+                'author'    => 'Richard Dawkins',
+                'rating'    => 8,
+                'category'  => 'nonfiction',
+                'slug'      => 'the-selfish-gene',
+                'img_name'  => 'selfish_gene.jpg',
+                'date_read' => '2020-08-22',
+                'wik_url'   => 'https://en.wikipedia.org/wiki/The_Selfish_Gene',
+                'azn_url'   => 'https://www.amazon.com/dp/B01GI5F2FS',
+                'tags'       => 'nonfiction,pop-science,biology,medicine,genetics',
             ],
             [
                 'title'     => 'Seneca',

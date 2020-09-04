@@ -21,6 +21,7 @@
     $url_speech         = 'https://issuu.com/the_academy/docs/na_mag_winter2012_final/4';
     $url_water          = \Globe::waterUrl();
     $url_seed           = 'https://pitchbook.com/profiles/company/229455-82';
+    $url_contact        = approuter()->contact();
     
 ?>
 <div class="books_container">
@@ -110,19 +111,10 @@
         •
         <a target="_blank" href="{{ $url_quora }}">Quora</a>
         •
+        <a target="_blank" href="{{ $url_contact }}">Email</a>
+        •
     </p>
 
-    @if(false)
-    <?php 
-        // #todo #cathat #implement contact 
-        // #todo #cathat #implement contact 
-        // #todo #cathat #implement contact 
-    ?>  
-    <h4>Contact</h4>
-    <p class="ab_text">
-        #todo
-    </p>
-    @endif
 </div>
 </div>
 

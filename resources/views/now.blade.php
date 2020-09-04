@@ -58,7 +58,7 @@
 
         Other than that, I'm still on my sabbatical (just over a year since I left my first venture), still spending most of my good time holed-up and programming
 
-        (glad to see my <a target="_blank" href={{ $url_2020 }}>2020</a> stats are smoking my stats from <a target="_blank" href={{ $url_2019}}>2019</a>),
+        (glad to see my <a target="_blank" href={{ $url_2020 }}>2020</a> stats are up from <a target="_blank" href={{ $url_2019}}>2019</a>),
 
         still spreading the rest over the usual sports, <a target="_blank" href={{ $url_books }}>reading</a>, instruments.
 
@@ -75,7 +75,7 @@
 
      <h4 class="ab_h4">Sabbatical</h4>
      <p class="ab_text">
-        It's been a blessing to spend this last year on my own pursuits but now I'm itching to get out of my hobbit hole. First, though, I want to finish this project.
+        It's been a blessing to spend this last year on my own pursuits but now I'm itching to get out of my cave. First, though, I want to finish this project.
 
         The plan is to release an iOS application that I've been building since January that serves as the cornerstone of a much bigger thing, which is a comprehensive health, wellness, and productivity self-tracking system that I have been developing since I was 15.
 

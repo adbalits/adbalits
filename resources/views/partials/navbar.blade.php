@@ -13,6 +13,7 @@
     ])->url();
     $url_now     = $router->now()->url();
     $url_words   = $router->words()->url();
+    $url_contact = approuter()->contact();
 
     $extraNavStyles = \Request::is('/')
         ? 'background-color: transparent;'
@@ -52,6 +53,12 @@
         <li class="nav-item {{ \Request::is($route_now)?'active':'' }}">
             <a class="nav-link" href="{{ $url_now }}">
                 Now
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="{{ $url_contact}}">
+                Contact
             </a>
         </li>
 

@@ -2,7 +2,15 @@
     "name": "adbalits/adbalits",
     "type": "blog",
     "description": "My personal website",
-    "version": "1.1.6",
+    "version": "1.1.7",
+    "authors": [
+        {
+            "name": "Andrew Balitsky",
+            "email": "contact@adbalits.com",
+            "homepage": "https://www.adbalits.com",
+            "role": "admin"
+        }
+    ],
     "license": "Creative Commons Attribution 4.0 International",
     "require": {
         "php": "^7.1.3",
