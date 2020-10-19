@@ -8,6 +8,7 @@
     $url_github = \AB\Globe::githubUrl();
     $url_link   = \AB\Globe::linkedUrl();
     $url_angel  = \AB\Globe::angelUrl();
+    $url_contact= approuter()->contact();
 ?>
 
 @if(false)
@@ -36,6 +37,9 @@
         </a>
         <a class="footer_icon_anchor" href="{{ $url_angel }}" target="_blank">
             <i class="fab fa-angellist footer_icon_icon"></i>
+        </a>
+        <a class="footer_icon_anchor" href="{{ $url_contact }}" target="_blank">
+            <i class="fa fa-envelope footer_icon_icon"></i>
         </a>
     </div>
 </div>
