@@ -1247,6 +1247,19 @@ class BookDictionary
                 'date_read' => '2018-02-01',
             ],
             [
+                'title'     => 'Mrs. Dalloway',
+                'subtitle'  => '',
+                'author'    => 'Virginia Woolf',
+                'rating'    => 0,
+                'category'  => 'literature',
+                'slug'      => 'mrs-dalloway',
+                'img_name'  => 'mrs_dalloway.jpg',
+                'date_read' => '2020-11-03',
+                'wik_url'   => 'https://en.wikipedia.org/wiki/Mrs_Dalloway',
+                'azn_url'   => 'https://www.amazon.com/Mrs-Dalloway-Virginia-Woolf/dp/1946963003',
+                'tags'       => 'literature,british-literature',
+            ],
+            [
                 'title'     => 'Much Ado About Nothing',
                 'author'    => 'William Shakespeare',
                 'rating'    => 0,
@@ -1843,6 +1856,20 @@ class BookDictionary
                 'slug'      => 'the-truth',
                 'img_name'  => 'truth.jpg',
                 'date_read' => '2015-10-01',
+            ],
+            // #U
+            [
+                'title'     => 'The Unconsoled',
+                'subtitle'  => '',
+                'author'    => 'Kazuo Ishiguro',
+                'rating'    => 0,
+                'category'  => 'literature',
+                'slug'      => 'the-unconsoled',
+                'img_name'  => 'unconsoled.jpg',
+                'date_read' => '2020-10-21',
+                'wik_url'   => 'https://en.wikipedia.org/wiki/The_Unconsoled',
+                'azn_url'   => 'https://www.amazon.com/Unconsoled-Kazuo-Ishiguro/dp/0679735879',
+                'tags'       => 'literature,magic-realism',
             ],
             // #V
             [
