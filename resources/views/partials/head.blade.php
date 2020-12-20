@@ -8,10 +8,10 @@
             : 'adbalits';
     ?>
     <title>{{ $title }}</title>
-    <meta name="description" content="The personal website of adbalits // Andrew Balitsky // Андрей Балицкий"/>
+    <meta name="description" content="The personal website of Andrew Balitsky // Андрей Балицкий // adbalits "/>
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css"> -->
 
     <!-- Analytics (Sorry folks, smart ones block this) -->
     @include('partials.googleAnalytics')
@@ -50,7 +50,9 @@
           background-color: black;
           color: white;
           font-size: 1em;
-          font-family: 'Nunito', sans-serif;
+          /* font-family: 'Nunito', sans-serif; */
+          /* font-family: 'Lora', sans-serif; */
+          font-family: 'Quattrocento Sans', sans-serif;
           font-weight: 200;
           height: 100vh;
           margin: 0;

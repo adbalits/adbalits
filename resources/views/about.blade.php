@@ -9,7 +9,6 @@
     $url_bg             = 'https://www.beatgig.com';
     $url_bro            = 'https://www.researchgate.net/profile/Philip_Balitsky';
     $url_angel          = \Globe::angelUrl();
-    $url_couch          = 'https://www.couchsurfing.com/people/andrewbalitsky';
     $url_github         = \Globe::githubUrl();
     $url_linked         = \Globe::linkedUrl();
     $url_na             = 'https://www.norfolkacademy.org/about';
@@ -22,6 +21,9 @@
     $url_water          = \Globe::waterUrl();
     $url_seed           = 'https://pitchbook.com/profiles/company/229455-82';
     $url_contact        = approuter()->contact();
+    $url_utexas         = 'https://www.utexas.edu/';
+    $url_utexas_cs      = 'https://www.cs.utexas.edu/';
+    $url_utexas_ma      = 'https://www.ma.utexas.edu/';
     
 ?>
 <div class="books_container">
@@ -30,15 +32,23 @@
 
 <div class="container books_page">
 <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 col-xl-10 offset-sm-1 offset-md-1 offset-lg-1 offset-xl-1">
+    
     <h1>
         {{ $title }}
     </h1>
     <hr class="short_line" />
-
-    <h4>About me</h4>
-    <p class="ab_text">
-        In a word? Technolohippyreneur. Expanded, that would be musician, writer, programmer, and startup entrepreneur.  
-    </p>
+    <div style="display: flex; flex-direction: row; align-items: flex-start;">
+        <div style="flex: 1;">
+            <img class="about_face show_xs" src="images/face.jpg" alt="face.jpg"  style="margin-bottom:15px;"/>
+            <h4>About me</h4>
+            <p class="ab_text">
+                In a word? I'd say "technolohippyreneur". Expanded, that would be musician, writer, technologist, and startup entrepreneur, although only two of those I've done professionally.
+            </p>
+        </div>
+        <div class="hide_xs">
+          <img class="about_face" src="images/face.jpg" alt="face.jpg" />
+        </div>
+    </div>
 
     <h4>Timeline</h4>
     <ul style="padding-left: 15px;">
@@ -50,7 +60,7 @@
             
             <a target="_blank" href="{{ $url_na }}">Norfolk Academy</a>
             
-            and begin a lifetime of pursuing the Greek ideal: cultivating mind, body, soul, and universality.
+            and begin a lifetime of cultivating mind, body, and soul.
         </li>
         <li>
             2012, Spring - <a target="_blank" href="{{ $url_yearbook }}">Graduate</a> Norfolk Academy as
@@ -62,10 +72,22 @@
             as well. You can read my valedictory address <a target="_blank" href="{{ $url_valediction }}">here</a>, and my other speech <a target="_blank" href="{{ $url_water }}">here</a>.
         </li>
         <li>
-            2012, Fall - Attend the University of Texas at Austin for three semesters with an Engineering Honors scholarship and dual major in Computer Science and Mathematics, completing about 70% of my credits to graduation.
+            2012, Fall - Attend the 
+            
+            <a target="_blank" href="{{ $url_utexas }}">University of Texas at Austin</a> 
+            
+            for three semesters with an Engineering Honors scholarship and dual major in 
+            
+            <a target="_blank" href="{{ $url_utexas_cs }}">Computer Science</a> 
+            
+            and 
+            
+            <a target="_blank" href="{{ $url_utexas_ma }}">Mathematics</a>,
+            
+            completing about 70% of my credits to graduation with both degrees.
         </li>
         <li>
-            2013, Fall - Vagabond. Drop out and begin a year of counter-culture lifestyle: backpacking, <a href={{ $url_couch }}>couchsurfing</a>, and volunteering on farms and homesteads across 14 different countries.
+            2013, Fall - Vagabond. Drop out and begin a year of counter-culture lifestyle: backpacking, couchsurfing, and volunteering on farms and homesteads across 14 different countries.
         </li>
         <li>
             2014, Fall - Sabbatical. Spend the winter in the 
@@ -79,13 +101,9 @@
             
             <a target="_blank" href="{{ $url_bg }}">BeatGig</a>
             
-             as CTO and help raise a $750,000
-            
-            <a target="_blank" href="{{ $url_seed }}">seed stage</a>
-             
-             to build a music marketplace that ends up featuring world-class performing artists (and partnering with the world's biggest talent agencies).
+             as CTO, raise a <a target="_blank" href="{{ $url_seed }}">seed stage investment</a>, and build a music marketplace that ends up featuring world-class performing artists (and partnering with the world's biggest talent agencies).
 
-             On the side I'm composing, recording, and producing folk/art/psychedelic rock for good fun.
+             On the side I'm writing folk/art/psychedelic rock for good fun.
         </li>
         <li>
             2019, Summer - Sabbatical. Exit BeatGig and begin a summer of meditation, reading, learning, and philosophizing.
@@ -98,18 +116,16 @@
         </li>
     </ul>
 
-    <hr class="ab_endpage" />
+    <hr class="ab_endpage" style="margin-top:35px;"/>
 
     <h4>Elsewhere</h4>
     <p class="ab_text" style="color:grey;">
         • 
-        <a target="_blank" href="{{ $url_angel }}">AngelList</a>
+        <a target="_blank" href="{{ $url_linked }}">LinkedIn</a>
         •
         <a target="_blank" href="{{ $url_github }}">GitHub</a>
         •
-        <a target="_blank" href="{{ $url_linked }}">LinkedIn</a>
-        •
-        <a target="_blank" href="{{ $url_quora }}">Quora</a>
+        <a target="_blank" href="{{ $url_angel }}">AngelList</a>
         •
         <a target="_blank" href="{{ $url_contact }}">Email</a>
         •

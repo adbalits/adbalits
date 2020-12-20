@@ -22,7 +22,7 @@
 <nav id="site_navbar" class="navbar navbar-expand-lg navbar-dark" style="{{ $extraNavStyles }}">
 <div class="container">
     <a class="navbar-brand" href="{{ url('/') }}">
-        adbalits
+        Andrew Balitsky
     </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

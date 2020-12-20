@@ -6,3 +6,16 @@
   width: 100%;
   background-image: radial-gradient(circle closest-side, black, black, black, rgba(255,0,0,.75), black, rgba(255,0,255, 0.50), black, black, black);
 }
+
+.show_xs {
+  display: none;
+  @media screen and (max-width: 600px){
+    display: flex;
+  };
+}
+.hide_xs {
+  display: flex;
+  @media screen and (max-width: 600px){
+    display: none;
+  };
+}

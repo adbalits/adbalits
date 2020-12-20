@@ -134,7 +134,7 @@ About
 
         And ever since I was introduced to the concept I knew I'd someday want to build one myself.
 
-        So consider this a way to pay it forward?
+        So consider this a way to pay it forward.
     </p>
 
     <h4>

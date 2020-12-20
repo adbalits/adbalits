@@ -26,9 +26,7 @@
         {{ $greeting }}
     </div>
 
-    <img class="splash_face" src="images/face.jpg" alt="face.jpg" />
-
-    <div class="footer_icons">
+    <div class="footer_icons" style="margin-top:85px;">
         <a class="footer_icon_anchor" href="{{ $url_github }}" target="_blank">
             <i class="fab fa-github square footer_icon_icon"></i>
         </a>
@@ -52,25 +50,25 @@ $(document).ready(function(){
         const newColor = myApp.randomColor();
 
         $hello = $('.splash_hello');
-        $face  = $('.splash_face');
+        // $face  = $('.splash_face');
 
         // light things back up
         const finishAnimation = () => {
             $hello.text(newGreeting);
             $hello.css('color', newColor);
 
-            $face.animate({
-                opacity: 0.90
-            }, 1500, 'linear');
+            // $face.animate({
+            //     opacity: 0.90
+            // }, 1500, 'linear');
             $hello.animate({
                 opacity: 1
             }, 1500);
         }
 
         // dim things
-        $face.animate({
-            opacity: 0.05
-        }, 3000, 'linear');
+        // $face.animate({
+        //     opacity: 0.05
+        // }, 3000, 'linear');
         $hello.animate({
             opacity: 0,
         }, 3000, null, finishAnimation);

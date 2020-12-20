@@ -132,6 +132,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'the-bell-ringers',
                 'img_name'  => 'bellringers.jpg',
+                'date_read' => '2006-08-31', // guess
             ],
             [
                 'title'     => 'Benjamin Franklin',
@@ -170,6 +171,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'breakfast-of-champions',
                 'img_name'  => 'breakfast.gif',
+                'date_read' => '2010-08-31', // guess
             ],
             [
                 'title'     => 'Brave New World',
@@ -306,6 +308,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'the-curious-incident',
                 'img_name'  => 'curious.jpg',
+                'date_read' => '2006-08-31', // guess
             ],
             [
                 'title'     => 'Creativity, Inc',
@@ -352,6 +355,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'the-da-vinci-code',
                 'img_name'  => 'davinci.jpg',
+                'date_read' => '2008-08-31', // guess
             ],
             [
                 'title'     => 'Daily Rituals',
@@ -388,6 +392,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'death-on-the-nile',
                 'img_name'  => 'death.jpg',
+                'date_read' => '2006-08-31', // guess
             ],
             [
                 'title'     => 'Deep Work',
@@ -491,6 +496,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'enders-shadow',
                 'img_name'  => 'endersshadow.jpg',
+                'date_read' => '2008-08-31', // guess
             ],
             [
                 'title'     => 'Emotional Intelligence',
@@ -520,6 +526,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'fahrenheit-451',
                 'img_name'  => 'fahrenheit.jpg',
+                'date_read' => '2007-08-31', // guess
             ],
             [
                 'title'     => 'Fast Food Nation',
@@ -565,6 +572,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'first-riders-call',
                 'img_name'  => 'firstrider.jpg',
+                'date_read' => '2006-08-31', // guess
             ],
             [
                 'title'     => 'Flowers for Algernon',
@@ -864,6 +872,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'hoot',
                 'img_name'  => 'hoot.jpg',
+                'date_read' => '2005-08-31', // guess
             ],
             [
                 'title'     => 'Hound of the Baskervilles',
@@ -872,6 +881,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'hound-of-the-baskervilles',
                 'img_name'  => 'hound.jpg',
+                'date_read' => '2008-08-31', // guess
             ],
             [
                 'title'     => 'The House of the Scorpion',
@@ -898,6 +908,7 @@ class BookDictionary
                 'category'  => 'business',
                 'slug'      => 'how-to-win-friends-and-influence-people',
                 'img_name'  => 'howtowin.jpg',
+                'date_read' => '2014-08-31', // guess
             ],
             [
                 'title'     => 'Huis Clos',
@@ -915,6 +926,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'hyperion',
                 'img_name'  => 'hyperion.jpg',
+                'date_read' => '2009-08-31', // guess
             ],
             [
                 'title'     => 'The Icewind Dale Trilogy',
@@ -950,6 +962,7 @@ class BookDictionary
                 'category'  => 'literature',
                 'slug'      => 'the-illustrated-man',
                 'img_name'  => 'illustratedman.jpg',
+                'date_read' => '2006-08-31',
             ],
             [
                 'title'     => 'In His Own Write',
@@ -1046,11 +1059,12 @@ class BookDictionary
             ],
             [
                 'title'     => 'The Last Wish',
-                'author'    => 'Andpzej Sapkowski',
+                'author'    => 'Andrzej Sapkowski',
                 'rating'    => 0,
                 'category'  => 'fiction',
                 'slug'      => 'the-last-wish',
                 'img_name'  => 'lastwish.jpg',
+                'date_read' => '2008-08-31', // guess
             ],
             [
                 'title'     => 'Le Petit Prince',
@@ -1152,6 +1166,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'lord-valentines-castle',
                 'img_name'  => 'lordvalentine.jpg',
+                'date_read' => '2009-08-31', // guess
             ],
             // #M
             [
@@ -1275,6 +1290,7 @@ class BookDictionary
                 'category'  => 'fiction',
                 'slug'      => 'mystic-and-rider',
                 'img_name'  => 'mystic.jpg',
+                'date_read' => '2007-08-31', // guess
             ],
             [
                 'title'     => 'Mystic River',
@@ -1692,7 +1708,8 @@ class BookDictionary
                 'rating'    => 0,
                 'category'  => 'literature',
                 'slug'      => 'the-strange-case-of-dr-jekyll-and-mr-hyde',
-                'img_name'  => 'strangecase.jpg'
+                'img_name'  => 'strangecase.jpg',
+                'date_read' => '2007-12-31', // guess
             ],
             [
                 'title'     => 'The Subterraneans',
