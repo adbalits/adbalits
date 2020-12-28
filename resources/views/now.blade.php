@@ -8,11 +8,9 @@
 <?php
     $url_sesshin = 'http://coldmountainzen.org/events/sesshin/';
     $url_now     = 'https://nownownow.com/about';
-
     $url_bro    = 'https://www.researchgate.net/profile/Philip_Balitsky';
     $url_ghent  = 'https://www.ugent.be/en';
     $url_phd    = 'https://www.researchgate.net/publication/334429158_A_Numerical_Investigation_of_the_Array_Effects_of_Wave_Energy_Converters_With_a_Realistic_Power_Take-off_System_Utilizing_a_Coupled_Model_Suite';
-
     $url_brit   = 'https://www.google.com/search?biw=1440&bih=803&tbm=isch&sa=1&ei=uKiUXeDhJMSc1fAPt8606AM&q=point+de+la+torche&oq=point+de+la+torche&gs_l=img.3..0i30.1161.1581..1787...0.0..0.117.210.1j1......0....1..gws-wiz-img.TGUtI_whgYE&ved=0ahUKEwjgnevb2f3kAhVEThUIHTcnDT0Q4dUDCAY&uact=5';
     $url_basq   = 'https://www.google.com/search?biw=1440&bih=803&tbm=isch&sa=1&ei=6aiUXYLwM5-W1fAPnMGQmA0&q=lafitenia&oq=lafitenia&gs_l=img.3..0l4j0i5i30j0i30l5.5734.5734..5957...0.0..0.100.100.0j1......0....1..gws-wiz-img.ARsgbQsKzBQ&ved=0ahUKEwjCiKnz2f3kAhUfSxUIHZwgBNMQ4dUDCAY&uact=5';
     $url_hoss   = 'https://www.google.com/search?biw=1440&bih=803&tbm=isch&sa=1&ei=qqiUXYvqNrm61fAPwdGeuA4&q=hossegor&oq=hossegor&gs_l=img.3...94126.94253..94445...0.0..0.0.0.......0....1..gws-wiz-img.FlAmdzIVBp8&ved=0ahUKEwiL56bV2f3kAhU5XRUIHcGoB-cQ4dUDCAY&uact=5';
@@ -38,6 +36,11 @@
     $url_rbc3 = url('/images/rbc3.jpg');
     $url_rbc4 = url('/images/rbc4.jpg');
 
+    // 2020-12-28
+    $url_beatgig = 'https://www.beatgig.com';
+    $url_qzlabs = 'https://www.quantizylabs.com';
+    $url_qzblog = 'https://www.medium.com/quantizy';
+
 ?>
 <div class="books_container">
 <div class="books_backdrop">
@@ -52,81 +55,30 @@
 
     <h4>What I'm doing now</h4>
     <p class="ab_text">
-        It's been seven months since my last update, but, for better or worse, not much has changed for me.
+        Ever since I left my 
+        
+        <a target="_blank" href={{ $url_beatgig }}>previous company</a>,
 
-        When the pandemic broke out I left my place in Asbury Park NJ and moved back south, first to the Outer Banks (catching waves, not viruses), and now here in Virginia.
+        I've been on sabbatical.
+        
+        After a few months of soul-searching, I decided to supercharge that learning and build me an iOS application which would serve as the cornerstone of a much bigger thing - a comprehensive health, wellness, and productivity self-tracking system that I have been evolving since I was 15.
 
-        Other than that, I'm still on my sabbatical (just over a year since I left my first venture), still spending most of my good time holed-up and programming
-
-        (glad to see my <a target="_blank" href={{ $url_2020 }}>2020</a> stats are up from <a target="_blank" href={{ $url_2019}}>2019</a>),
-
-        still spreading the rest over the usual sports, <a target="_blank" href={{ $url_books }}>reading</a>, instruments.
+        Now I can finally say that it's done, it's called 
+        
+        <a target="_blank" href={{ $url_qzlabs }}>Quantizy</a>,
+        
+        and you can read more about it on the company
+        
+        <a target="_blank" href={{ $url_qzblog }}>blog</a>.
 
      </p>
 
-
-    <div class="now_img_wrapper">
+    <!-- <div class="now_img_wrapper">
         <img src="{{ $url_2019 }}" class="now_img"/>
-    </div>
-
-    <div class="now_img_wrapper">
-        <img src="{{ $url_2020 }}" class="now_img"/>
-    </div>
-
-     <h4 class="ab_h4">Sabbatical</h4>
-     <p class="ab_text">
-        It's been a blessing to spend this last year on my own pursuits but now I'm itching to get out of my cave. First, though, I want to finish this project.
-
-        The plan is to release an iOS application that I've been building since January that serves as the cornerstone of a much bigger thing, which is a comprehensive health, wellness, and productivity self-tracking system that I have been developing since I was 15.
-
-        (Yes, yet another <a target="_blank" href="{{ $url_qs }}">Quantified Self</a>).
-
-        I'll have more to say about it soon enough.
-
-        <br />
-        <br />
-
-        What I can say is this: it's been a pretty random walk to get to this point.
-
-        It started in a bit of a fog. After I left my company I wasn't entirely sure what I wanted to do next, wasn't entirely sure what path to follow.
-
-        I started doing a lot of research, trying to survey the landscape of science and technology, trying to assess what skills could lead to what opportunities.
-
-        Ultimately, data science and data visualization seemed like a good bet for me, with an emphasis on web and mobile products.
-
-        <br />
-        <br />
-
-        So I set a goal of <a target="_blank" href="{{ $url_ultra }}">ultralearning</a> and decided to upgrade my heavily back-end and PHP-skewed programming chops so that I'd be far more versatile in JavaScript/ES6, TypeScript, React, React Native, and D3.js development as well.
-
-        To supercharge that learning, I decided I would build a digital version of the largely pen-and-paper self-tracking system that I had been keeping for so many years before.
-
-        However, the more I built, the more I wanted to build, one thing led to another, and now I have started the second company in my life (or 
-
-        <a target="_blank" href="{{ $url_rbc1 }}">third</a>, depending
-
-        <a target="_blank" href="{{ $url_rbc2 }}">on</a> how 
-
-        <a target="_blank" href="{{ $url_rbc3 }}">we</a> count
-
-        <a target="_blank" href="{{ $url_rbc4 }}">this</a>)
-
-        and the very long to-do list at the start of this sabbatical has whittled down at last, but a few things yet remain.
-
-     </p>
-
-     <h4 class="ab_h4">Ahead</h4>
-    <p class="ab_text">
-        I've been fortunate to cross a lot of life goals from my bucket list but there are two in particular that have been staring me in the face:
-
-        one, to grow my network of professional peers, mentors, colleagues, etc; and two, to work with artificial intelligence.
-
-        For the time being, I'll tighten up my data science and data viz skills, release this product, and we'll see what lies ahead.
-
-    </p>
+    </div> -->
 
     <p class="ab_text" style="color:white; color: grey;">
-        Updated: August 7
+        Updated: Dec 28 2020
     </p>
 
     <hr class="ab_endpage" />
