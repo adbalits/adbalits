@@ -24,6 +24,7 @@
     $url_utexas         = 'https://www.utexas.edu/';
     $url_utexas_cs      = 'https://www.cs.utexas.edu/';
     $url_utexas_ma      = 'https://www.ma.utexas.edu/';
+    $url_qzlabs         = 'https://www.quantizylabs.com';
     
 ?>
 <div class="books_container">
@@ -51,7 +52,7 @@
     </div>
 
     <h4>Timeline</h4>
-    <ul style="padding-left: 15px;">
+    <ul style="padding-left: 15px; display: flex; flex-direction: column-reverse;">
         <li>
             1993 - Born a Leo.
         </li>
@@ -106,13 +107,14 @@
              On the side I'm writing folk/art/psychedelic rock for good fun.
         </li>
         <li>
-            2019, Summer - Sabbatical. Exit BeatGig and begin a summer of meditation, reading, learning, and philosophizing.
+            2019, Summer - Sabbatical. Exit BeatGig and begin a few months meditation, reading, philosophizing, and surf travel with my brother.
         </li>
         <li>
-            2019, Fall - Travel. Spend almost two months on road trip with my <a target="_blank" href={{ $url_bro }}>brother</a>.
-        </li>
-        <li>
-            2019, Winter - Sabbatical. Shift my focus to research and development.
+            2020, Winter - Solo founder and app developer. Build and release
+            
+            <a target="_blank" href="{{ $url_qzlabs }}">Quantizy</a>, a time-tracker for iOS,
+            
+             to serve as the cornerstore of my self-tracking system for health and productivity.
         </li>
     </ul>
 

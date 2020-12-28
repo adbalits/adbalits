@@ -8,4 +8,5 @@
 * __1.1.6__- Fri Aug 07 2020 - Update /now and commit small adjustments.
 * __1.1.7__- Fri Sep 04 2020 - Add contact info.
 * __1.2.0__- Sun Dec 20 2020 - Update /about. 
-* __1.2.1__- Sun Dec 20 2020 - Update /now to announce Quantizy.
+* __1.2.1__- Mon Dec 28 2020 - Update /now to announce Quantizy.
+* __1.2.2__- Mon Dec 28 2020 - Update timeline on /about to include Quantizy.
