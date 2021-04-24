@@ -25,6 +25,9 @@
   margin-top: 15px;
   margin-bottom: 55px;
   padding-top: 35px;
+  @include mobile {
+    padding-top: 15px;
+  }
 }
 .books_divider
 {

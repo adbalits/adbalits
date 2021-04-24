@@ -4,11 +4,23 @@
 
     <?php
         $title = isset($title)
-            ? sprintf('adbalits | %s', $title)
+            ? sprintf('%s | adbalits', $title)
             : 'adbalits';
+        $ogTitle = isset($ogTitle)
+            ? sprintf('%s | adbalits', $ogTitle)
+            : $title;
     ?>
     <title>{{ $title }}</title>
-    <meta name="description" content="The personal website of Andrew Balitsky // Андрей Балицкий // adbalits "/>
+    <meta name="description" content="The personal website of Andrew Balitsky // Андрей Балицкий // adbalits"/>
+    <meta name="og:title" content="{{ $ogTitle }}"/>
+    <meta property="og:type" content="website"/>
+    @if(isset($ogDesc))
+        <meta name="og:description" content="{{ $ogDesc }}"/>
+    @endif
+    @if(isset($ogImg))
+        <meta property="og:image" content="{{ $ogImg }}"/>
+    @endif
+    
 
     <!-- Fonts -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css"> -->

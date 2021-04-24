@@ -73,8 +73,13 @@ class Controller extends BaseController
      */
     public function now()
     {
+        $previewStr = 'Over the last few years most of my friends have probably grown tired of hearing me talk about one day moving to New York City / Brooklyn...';
+
         return view('now', [
             'title' => 'Now',
+            'ogTitle' => "What I'm doing now",
+            'ogImg' => url('/images/nyc.jpg'),
+            'ogDesc' => $previewStr,
         ]);
     }
 }
