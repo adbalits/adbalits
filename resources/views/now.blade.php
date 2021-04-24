@@ -27,6 +27,7 @@
     $url_2020   = url('/images/2020.png');
     $url_2019   = url('/images/2019.png');
     $url_nyc   = url('/images/nyc.jpg');
+    $url_nyc2   = url('/images/nyc2.jpg');
     $url_books  = approuter()->books([
         'sortby' => 'latest',
     ])->url();
@@ -56,7 +57,7 @@
     <hr style="width:20%; border-color: rgba(255,255,255,1); margin-left:0;margin-right: auto; margin-bottom: 15px; margin-top: 15px;"/>
     <h4 style="color: grey;text-decoration: line-through">Sex and the City</h4>
     <div class="now_img_wrapper">
-        <img src="{{ $url_nyc }}" class="now_img2"/>
+        <img src="{{ $url_nyc }}" class="now_img2" style="margin-left:auto;margin-right:auto;"/>
     </div>
     
     <h4 style="margin-top:15px;margin-bottom:15px;">AI and the City</h4>
@@ -78,6 +79,9 @@
         an artifical intelligence startup headquartered in Manhattan, New York City (relocation pending).
      </p>
 
+     <div class="now_img_wrapper">
+        <img src="{{ $url_nyc2 }}" class="now_img2" style="margin-left:auto;margin-right:auto;"/>
+    </div>
 
     <!-- <div class="now_img_wrapper">
         <img src="{{ $url_2019 }}" class="now_img"/>
