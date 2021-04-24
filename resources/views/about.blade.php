@@ -25,6 +25,8 @@
     $url_utexas_cs      = 'https://www.cs.utexas.edu/';
     $url_utexas_ma      = 'https://www.ma.utexas.edu/';
     $url_qzlabs         = 'https://www.quantizylabs.com';
+    $url_qzblog         = 'https://www.medium.com/quantizy';
+    $url_grapevine      = 'https://www.grapevine.ai';
     
 ?>
 <div class="books_container">
@@ -40,29 +42,19 @@
     <hr class="short_line" />
     <div style="display: flex; flex-direction: row; align-items: flex-start;">
         <div style="flex: 1;">
-            <img class="about_face show_xs" src="images/face.jpg" alt="face.jpg"  style="margin-bottom:15px;"/>
+            <!-- <img class="about_face show_xs" src="images/face.jpg" alt="face.jpg"  style="margin-bottom:15px;"/>-->
             <h4>About me</h4>
             <p class="ab_text">
                 In a word? I'd say "technolohippyreneur". Expanded, that would be musician, writer, technologist, and startup entrepreneur, although only two of those I've done professionally.
             </p>
         </div>
-        <div class="hide_xs">
+        <!-- <div class="hide_xs" style="display:none;">
           <img class="about_face" src="images/face.jpg" alt="face.jpg" />
-        </div>
+        </div> -->
     </div>
 
     <h4>Timeline</h4>
     <ul style="padding-left: 15px; display: flex; flex-direction: column-reverse;">
-        <li>
-            1993 - Born a Leo.
-        </li>
-        <li>
-            2000 - Enter 
-            
-            <a target="_blank" href="{{ $url_na }}">Norfolk Academy</a>
-            
-            and begin a lifetime of cultivating mind, body, and soul.
-        </li>
         <li>
             2012, Spring - <a target="_blank" href="{{ $url_yearbook }}">Graduate</a> Norfolk Academy as
             
@@ -104,7 +96,7 @@
             
              as CTO, raise a <a target="_blank" href="{{ $url_seed }}">seed stage investment</a>, and build a music marketplace that ends up featuring world-class performing artists (and partnering with the world's biggest talent agencies).
 
-             On the side I'm writing folk/art/psychedelic rock for good fun.
+             On the side I'm writing folk/psychedelic rock for good fun.
         </li>
         <li>
             2019, Summer - Sabbatical. Exit BeatGig and begin a few months meditation, reading, philosophizing, and surf travel with my brother.
@@ -114,7 +106,14 @@
             
             <a target="_blank" href="{{ $url_qzlabs }}">Quantizy</a>, a time-tracker for iOS,
             
-             to serve as the cornerstore of my self-tracking system for health and productivity.
+             to serve as the cornerstone of my self-tracking system for health and productivity. More on that story
+             
+             <a target="_blank" href="{{ $url_qzblog }}">here</a>.
+        </li>
+        <li>
+            2021, Spring - Begin working as a software engineer for 
+            
+            <a target="_blank" href="{{ $url_grapevine }}">Grapevine AI</a>, an artifical intelligence startup headquartered in NYC.
         </li>
     </ul>
 

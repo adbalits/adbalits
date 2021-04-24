@@ -58,6 +58,18 @@
     opacity: 0.95;
   }
 }
+.now_img2{
+  transition: all 0.2s ease;
+  opacity: 0.67;
+  &:hover{
+    opacity: 0.95;
+  }
+  width: 75%;
+  @include mobile {
+    width: 100%;
+    opacity: 0.95;
+  }
+}
 .adb_h4
 {
   margin-top: 35px;

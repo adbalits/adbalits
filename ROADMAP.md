@@ -10,3 +10,4 @@
 * __1.2.0__- Sun Dec 20 2020 - Update /about. 
 * __1.2.1__- Mon Dec 28 2020 - Update /now to announce Quantizy.
 * __1.2.2__- Mon Dec 28 2020 - Update timeline on /about to include Quantizy.
+* __1.2.3__- Fri Apr 23 2021 - Update timeline on /about; update /now with the Grapevine/NYC news.

@@ -26,6 +26,7 @@
     $url_m365   = 'https://web.ma.utexas.edu/academics/courses/syllabi/M365C.php';
     $url_2020   = url('/images/2020.png');
     $url_2019   = url('/images/2019.png');
+    $url_nyc   = url('/images/nyc.jpg');
     $url_books  = approuter()->books([
         'sortby' => 'latest',
     ])->url();
@@ -40,6 +41,7 @@
     $url_beatgig = 'https://www.beatgig.com';
     $url_qzlabs = 'https://www.quantizylabs.com';
     $url_qzblog = 'https://www.medium.com/quantizy';
+    $url_grapevine = 'https://www.grapevine.ai';
 
 ?>
 <div class="books_container">
@@ -52,33 +54,37 @@
     {{ $title }}
     </h1>
     <hr style="width:20%; border-color: rgba(255,255,255,1); margin-left:0;margin-right: auto; margin-bottom: 15px; margin-top: 15px;"/>
-
-    <h4>What I'm doing now</h4>
+    <h4 style="color: grey;text-decoration: line-through">Sex and the City</h4>
+    <div class="now_img_wrapper">
+        <img src="{{ $url_nyc }}" class="now_img2"/>
+    </div>
+    
+    <h4 style="margin-top:15px;margin-bottom:15px;">AI and the City</h4>
     <p class="ab_text">
-        Ever since I left my 
-        
-        <a target="_blank" href={{ $url_beatgig }}>previous company</a>,
+        Over the last few years most of my friends have probably grown tired of hearing me talk about one day moving to New York City / Brooklyn.
 
-        I've been on sabbatical.
-        
-        After a few months of soul-searching, I decided to supercharge that learning and build me an iOS application which would serve as the cornerstone of a much bigger thing - a comprehensive health, wellness, and productivity self-tracking system that I have been evolving since I was 15.
+        At one point I had even packed up most of my stuff into a car and bagged a two month sublease in Williamsburg in preparation for a more permanent move.
 
-        Now I can finally say that it's done, it's called 
-        
-        <a target="_blank" href={{ $url_qzlabs }}>Quantizy</a>,
-        
-        and you can read more about it on the company
-        
-        <a target="_blank" href={{ $url_qzblog }}>blog</a>.
+        But things didn't work out. And if we've ever talked at length over the years you've also probably gotten tired of hearing me talk about artifical intelligence.
 
+        All talk, no walk.
      </p>
+
+     <p class="ab_text">
+        That is, until now. I'm stoked to say that I've started working as a software engineer for 
+        
+        <a target="_blank" href="{{ $url_grapevine }}">Grapevine AI</a>,
+        
+        an artifical intelligence startup headquartered in Manhattan, New York City (relocation pending).
+     </p>
+
 
     <!-- <div class="now_img_wrapper">
         <img src="{{ $url_2019 }}" class="now_img"/>
     </div> -->
 
     <p class="ab_text" style="color:white; color: grey;">
-        Updated: Dec 28 2020
+        Updated: Apr 23 2021
     </p>
 
     <hr class="ab_endpage" />
