@@ -78,7 +78,7 @@ class Controller extends BaseController
         return view('now', [
             'title' => 'Now',
             'ogTitle' => "What I'm doing now",
-            'ogImg' => url('/images/nyc.jpg'),
+            'ogImg' => url('/images/nyc_tn.jpg'),
             'ogDesc' => $previewStr,
         ]);
     }
