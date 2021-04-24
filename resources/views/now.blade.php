@@ -57,7 +57,7 @@
     <hr style="width:20%; border-color: rgba(255,255,255,1); margin-left:0;margin-right: auto; margin-bottom: 15px; margin-top: 15px;"/>
     <h4 style="color: grey;text-decoration: line-through">Sex and the City</h4>
     <div class="now_img_wrapper" style="background-image:url('{{$url_nyc}}');">
-        <img src="{{ $url_nyc }}" class="now_img" style="opacity:0;z-index:-1;"/>
+        <img src="{{ $url_nyc }}" class="now_img2" />
     </div>
     
     <h4 style="margin-top:15px;margin-bottom:15px;">AI and the City</h4>
@@ -80,7 +80,7 @@
      </p>
 
      <div class="now_img_wrapper" style="background-image:url('{{$url_nyc2}}');">
-        <img src="{{ $url_nyc2 }}" class="now_img" style="opacity:0;z-index:-1;"/>
+        <img src="{{ $url_nyc2 }}" class="now_img2" />
     </div>
 
     <!-- <div class="now_img_wrapper">

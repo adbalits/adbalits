@@ -62,8 +62,10 @@
   
 }
 .now_img2{
-  max-height: 100%;
-  max-width: 100%;
+  opacity: 0.01;
+  width: 10px;
+  height: 10px;
+  z-index: -1;
 }
 .adb_h4
 {
