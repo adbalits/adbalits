@@ -56,8 +56,8 @@
     </h1>
     <hr style="width:20%; border-color: rgba(255,255,255,1); margin-left:0;margin-right: auto; margin-bottom: 15px; margin-top: 15px;"/>
     <h4 style="color: grey;text-decoration: line-through">Sex and the City</h4>
-    <div class="now_img_wrapper">
-        <img src="{{ $url_nyc }}" class="now_img2" style="margin-left:auto;margin-right:auto;"/>
+    <div class="now_img_wrapper" style="background-image:url('{{$url_nyc}}');">
+        <img src="{{ $url_nyc }}" class="now_img" style="opacity:0;z-index:-1;"/>
     </div>
     
     <h4 style="margin-top:15px;margin-bottom:15px;">AI and the City</h4>
@@ -79,8 +79,8 @@
         an artifical intelligence startup headquartered in Manhattan, New York City (relocation pending).
      </p>
 
-     <div class="now_img_wrapper">
-        <img src="{{ $url_nyc2 }}" class="now_img2" style="margin-left:auto;margin-right:auto;"/>
+     <div class="now_img_wrapper" style="background-image:url('{{$url_nyc2}}');">
+        <img src="{{ $url_nyc2 }}" class="now_img" style="opacity:0;z-index:-1;"/>
     </div>
 
     <!-- <div class="now_img_wrapper">

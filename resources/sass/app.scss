@@ -44,34 +44,26 @@
 {
   margin-top: 25px;
   margin-bottom: 25px;
-  width: 100%;
-  height: auto;
   display: flex;
   justify-content: center;
-//  background-color: red;
-}
-.now_img
-{
-  width: 100%;
-  height: auto;
-  transition: all 0.2s ease;
-  opacity: 0.8;
-  &:hover{
-    opacity: 0.95;
-  }
-}
-.now_img2{
-  transition: all 0.2s ease;
-  opacity: 0.67;
-  &:hover{
-    opacity: 0.95;
-  }
+  margin-left: auto;
+  margin-right:auto;
   width: 75%;
+  max-height: 400px;
+  min-height: 400px;
   @include mobile {
     width: 100%;
-    opacity: 0.95;
-    max-height: 350px;
+    min-height: 200px;
+    max-height: 300px;
   }
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+.now_img2{
+  max-height: 100%;
+  max-width: 100%;
 }
 .adb_h4
 {
