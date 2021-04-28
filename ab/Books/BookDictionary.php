@@ -1676,7 +1676,7 @@ class BookDictionary
                 'slug'      => 'stalin-paradoxes-of-power',
                 'img_name'  => 'stalin.jpg',
                 'date_read' => '2021-04-28',
-                'wik_url'   => 'https://en.wikipedia.org/wiki/Mrs_Dalloway',
+                'wik_url'   => 'https://en.wikipedia.org/wiki/Stalin:_Paradoxes_of_Power,_1878-1928',
                 'azn_url'   => 'https://www.amazon.com/Stalin-Paradoxes-1878-1928-Stephen-Kotkin/dp/0143127861',
                 'tags'      => 'nonfiction,history,russia',
             ],
