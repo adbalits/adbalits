@@ -35,6 +35,7 @@
         $css_file = sprintf('/css/app.css?v=%s', time()); // chrome will always load
     ?>
     <link type="text/css" href="{{ asset($css_file) }}" rel="stylesheet">
+    
 
     <!-- FAVICONS -->
     <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-icon-57x57.png">

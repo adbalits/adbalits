@@ -4,15 +4,16 @@
 @include('partials.head')
 
 <body>
-<div class="app_container">
-<script src="{{ asset('js/app.js') }}" charset="utf-8"></script>
+    <div class="app_container">
+        <script src="{{ asset('js/app.js') }}" charset="utf-8"></script>
+        
 
-    @include('partials.navbar')
+        @include('partials.navbar')
 
-    <div class="screen_container">
-        @yield('content')
+        <div class="screen_container">
+            @yield('content')
+        </div>
     </div>
-</div>
 </body>
 
 </html>
