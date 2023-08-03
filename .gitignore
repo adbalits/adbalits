@@ -22,3 +22,6 @@ after.sh
 Vagrantfile
 
 .DS_Store
+vendor/
+
+.env
