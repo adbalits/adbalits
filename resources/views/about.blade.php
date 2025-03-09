@@ -99,7 +99,7 @@
              On the side I'm writing folk/psychedelic rock for good fun.
         </li>
         <li>
-            2019, Summer - Sabbatical. Exit BeatGig and begin a few months meditation, reading, philosophizing, and surf travel with my brother.
+            2019, Summer - Sabbatical. Exit BeatGig and begin a few months of meditation, reading, philosophizing, and surf travel with my brother.
         </li>
         <li>
             2020, Winter - Solo founder and app developer. Build and release
@@ -113,7 +113,15 @@
         <li>
             2021, Spring - Begin working as a software engineer for 
             
-            <a target="_blank" href="{{ $url_grapevine }}">Grapevine AI</a>, an artifical intelligence startup headquartered in NYC.
+            <a target="_blank" href="{{ $url_grapevine }}">Grapevine AI</a>, an artificial intelligence startup headquartered in NYC.
+        </li>
+
+        <li>
+            2021, Winter - Join <a target="_blank" href="https://www.amazon.com">Amazon</a> as a software engineer at their NYC headquarters.
+        </li>
+
+        <li>
+            2024, Summer - Sabbatical. Leave Amazon to cure burnout and study AI. Help build <a target="_blank" href="https://www.shrinked.ai">Shrinked.AI</a>.
         </li>
     </ul>
 
