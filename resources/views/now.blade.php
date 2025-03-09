@@ -55,40 +55,40 @@
     {{ $title }}
     </h1>
     <hr style="width:20%; border-color: rgba(255,255,255,1); margin-left:0;margin-right: auto; margin-bottom: 15px; margin-top: 15px;"/>
-    <h4 style="color: grey;text-decoration: line-through">Sex and the City</h4>
-    <div class="now_img_wrapper" style="background-image:url('{{$url_nyc}}');">
+    <h4 style="color: white;">Springtime in Manhattan</h4>
+    <!-- <div class="now_img_wrapper" style="background-image:url('{{$url_nyc}}');">
         <img src="{{ $url_nyc }}" class="now_img2" />
-    </div>
-    
-    <h4 style="margin-top:15px;margin-bottom:15px;">AI and the City</h4>
+    </div> -->
     <p class="ab_text">
-        Over the last few years most of my friends have probably grown tired of hearing me talk about one day moving to New York City / Brooklyn.
+        If you've run into me at any point in the last few months, or if you happened to catch my last update to this page around New Year's, you might've heard me mention that despite many months of working in NYC, living out of subleases and AirBnb's and all that jazz, I still hadn't managed to find a long term lease. That is, until now. 
+    </p>
 
-        At one point I had even packed up most of my stuff into a car and bagged a two month sublease in Williamsburg in preparation for a more permanent move.
+    <p class="ab_text">
+        It delights me to say that I'm writing this update from my desk at my very own place in the Big Apple at last, on the west side of Manhattan, much to my surprise.
 
-        But things didn't work out. And if we've ever talked at length over the years you've also probably gotten tired of hearing me talk about artifical intelligence.
+        I thought for sure I would end up in a dingy studio in Brooklyn somewhere, but friends of mine were looking at larger places to room together on the island, and so here we are.
 
-        All talk, no walk.
-     </p>
+        A dream come true!
+    </p>
 
+     <h4 style="color: white;">Work</h4>
      <p class="ab_text">
-        That is, until now. I'm stoked to say that I've started working as a software engineer for 
-        
-        <a target="_blank" href="{{ $url_grapevine }}">Grapevine AI</a>,
-        
-        an artifical intelligence startup headquartered in Manhattan, New York City (relocation pending).
+        I'm coming up on my six month "anniversary" at Amazon. I'll say, there was a heck of a learning curve to getting familiar and productive with our systems and processes alone, not to mention the codebases, but I'm finally feeling like the training wheels have come off.
      </p>
 
-     <div class="now_img_wrapper" style="background-image:url('{{$url_nyc2}}');">
-        <img src="{{ $url_nyc2 }}" class="now_img2" />
-    </div>
+     <h4 style="color: white;">Life</h4>
+     <p class="ab_text">
+        Between the new job, an awful breakup, and the several-month-long apartment hunt, I haven't had much as much time lately for reading and writing and music and studying and all those nice things I like to do in my free time.
 
-    <!-- <div class="now_img_wrapper">
-        <img src="{{ $url_2019 }}" class="now_img"/>
+        And now that I'm in NYC I might have to hold back the introvert a little longer. 
+    </p>
+
+     <!-- <div class="now_img_wrapper" style="background-image:url('{{$url_nyc2}}');">
+        <img src="{{ $url_nyc2 }}" class="now_img2" />
     </div> -->
 
     <p class="ab_text" style="color:white; color: grey;">
-        Updated: Apr 23 2021
+        Updated: May 3 2022
     </p>
 
     <hr class="ab_endpage" />
