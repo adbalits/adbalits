@@ -57,6 +57,18 @@ class BookDictionary
                 'date_read' => '2011-05-31',
             ],
             [
+                'title'     => 'Animal Farm',
+                'author'    => 'George Orwell',
+                'rating'    => 0,
+                'category'  => 'literature',
+                'slug'      => 'animal-farm',
+                'img_name'  => 'animal_farm.jpg',
+                'date_read' => '2022-04-01', // guess
+                'wik_url'   => 'https://en.wikipedia.org/wiki/Animal_Farm',
+                'azn_url'   => 'https://www.amazon.com/Animal-Farm-George-Orwell/dp/0451526341',
+                'tags'      => 'literature,sattire',
+            ],
+            [
                 'title'     => 'After Dark',
                 'author'    => 'Haruki Murakami',
                 'rating'    => 0,
@@ -67,6 +79,18 @@ class BookDictionary
                 'wik_url'   => 'https://www.amazon.com/After-Vintage-International-Haruki-Murakami/dp/0307278735',
                 'azn_url'   => 'https://en.wikipedia.org/wiki/After_Dark_(novel)',
                 'tags'      => 'literature,magic-realism',
+            ],
+            [
+                'title'     => 'Antifragile',
+                'author'    => 'Nassim Nicholas Taleb',
+                'rating'    => 8,
+                'category'  => 'theory',
+                'slug'      => 'antifragile',
+                'img_name'  => 'antifragile.jpg',
+                'date_read' => '2023-04-01', // guess
+                'wik_url'   => 'https://en.wikipedia.org/wiki/Antifragile_(book)',
+                'azn_url'   => 'https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680',
+                'tags'      => 'theory,business',
             ],
             [
                 'title'     => 'Art',
@@ -167,6 +191,18 @@ class BookDictionary
                 'date_read' => '2010-08-01',
             ],
             [
+                'title'     => 'Big Sur',
+                'author'    => 'Jack Kerouac',
+                'rating'    => 8,
+                'category'  => 'literature',
+                'slug'      => 'big-sur',
+                'img_name'  => 'big_sur.jpg',
+                'date_read' => '2023-10-10',
+                'wik_url'   => 'https://en.wikipedia.org/wiki/Big_Sur_(novel)',
+                'azn_url'   => 'https://www.amazon.com/Big-Sur-Jack-Kerouac/dp/B002BACB86',
+                'tags'      => 'literature',
+            ],
+            [
                 'title'     => 'Bottled & Sold',
                 'subtitle'  => 'The Story Behind Our Obsession with Bottled Water',
                 'author'    => 'Peter H. Gleik',
@@ -214,7 +250,19 @@ class BookDictionary
                 'img_name'  => 'buddhism.jpg',
                 'date_read' => '2013-12-01',
             ],
-            // #C
+            // 
+            [
+                'title'     => 'The Castle',
+                'author'    => 'Franz Kafka',
+                'rating'    => 9,
+                'category'  => 'literature',
+                'slug'      => 'the-castle',
+                'img_name'  => 'the_castle.jpg',
+                'date_read' => '2024-01-31', // guess
+                'wik_url'   => 'https://en.wikipedia.org/wiki/The_Castle_(novel)',
+                'azn_url'   => 'https://www.amazon.com/Castle-Franz-Kafka/dp/0805210393',
+                'tags'      => 'literature,sattire',
+            ],
             [
                 'title'     => 'Cat\'s Cradle',
                 'author'    => 'Kurt Vonnegut',
@@ -434,6 +482,18 @@ class BookDictionary
                 'date_read' => '2005-05-31', // guess
             ],
             [
+                'title'     => 'The Dark Forest',
+                'author'    => 'Cixin Liu',
+                'rating'    => 9,
+                'category'  => 'fiction',
+                'slug'      => 'dark-forest',
+                'img_name'  => 'dark_forest.jpg',
+                'date_read' => '2024-11-29', // guess
+                'wik_url'   => 'https://en.wikipedia.org/wiki/The_Dark_Forest',
+                'azn_url'   => 'https://www.amazon.com/Dark-Forest-Remembrance-Earths-Past/dp/0765386690',
+                'tags'      => 'fiction,sci-fi',
+            ],
+            [
                 'title'     => 'Death on the Nile',
                 'author'    => 'Agatha Christie',
                 'rating'    => 0,
@@ -441,6 +501,18 @@ class BookDictionary
                 'slug'      => 'death-on-the-nile',
                 'img_name'  => 'death.jpg',
                 'date_read' => '2006-08-31', // guess
+            ],
+            [
+                'title'     => 'Death\'s End',
+                'author'    => 'Cixin Liu',
+                'rating'    => 8,
+                'category'  => 'fiction',
+                'slug'      => 'deaths-end',
+                'img_name'  => 'deaths_end.jpg',
+                'date_read' => '2024-12-12', // guess
+                'wik_url'   => 'https://en.wikipedia.org/wiki/Death\'s_End',
+                'azn_url'   => 'https://www.amazon.com/Deaths-End-Remembrance-Earths-Past/dp/0765377101',
+                'tags'      => 'fiction,sci-fi',
             ],
             [
                 'title'     => 'Deep Work',
@@ -615,6 +687,18 @@ class BookDictionary
                 'date_read' => '2007-08-31', // guess
             ],
             [
+                'title'     => 'A Farewell To Arms',
+                'author'    => 'Ernest Hemingway',
+                'rating'    => 0,
+                'category'  => 'literature',
+                'slug'      => 'farewell-to-arms',
+                'img_name'  => 'farewell_to_arms.jpg',
+                'date_read' => '2023-06-01', // guess
+                'wik_url'   => 'https://en.wikipedia.org/wiki/A_Farewell_to_Arms',
+                'azn_url'   => 'https://www.amazon.com/Farewell-Arms-Ernest-Hemingway/dp/0684801469',
+                'tags'      => 'literature',
+            ],
+            [
                 'title'     => 'Fast Food Nation',
                 'subtitle'  => 'The Dark Side of the All-American Meal',
                 'author'    => 'Eric Schlosser',
@@ -672,6 +756,18 @@ class BookDictionary
                 'wik_url'   => 'https://en.wikipedia.org/wiki/Flowers_for_Algernon',
                 'azn_url'   => 'https://www.amazon.com/Flowers-Algernon-Daniel-Keyes/dp/015603008X',
                 'tags'       => 'literature',
+            ],
+            [
+                'title'     => 'The Fountainhead',
+                'author'    => 'Ayn Rand',
+                'rating'    => 8,
+                'category'  => 'literature',
+                'slug'      => 'fountainhead',
+                'img_name'  => 'fountainhead.jpg',
+                'date_read' => '2024-12-10', // guess
+                'wik_url'   => 'https://en.wikipedia.org/wiki/The_Fountainhead',
+                'azn_url'   => 'https://www.amazon.com/Fountainhead-Ayn-Rand/dp/B002CEO4WW',
+                'tags'      => 'literature,objectivism,theory',
             ],
             [
                 'title'     => 'Frankenstein',
@@ -1104,6 +1200,42 @@ class BookDictionary
                 'date_read' => '2014-09-01',
             ],
             // #J
+            [
+                'title'     => 'Jade City',
+                'author'    => 'Fonda Lee',
+                'rating'    => 0,
+                'category'  => 'fiction',
+                'slug'      => 'jade-city',
+                'img_name'  => 'jade_city.jpg',
+                'date_read' => '2024-12-14', // guess
+                'wik_url'   => 'https://en.wikipedia.org/wiki/Jade_City_(novel)',
+                'azn_url'   => 'https://www.amazon.co.uk/Jade-City-Fonda-Lee/dp/0316440868',
+                'tags'      => 'fiction,fantasy,crime',
+            ],
+            [
+                'title'     => 'Jade War',
+                'author'    => 'Fonda Lee',
+                'rating'    => 0,
+                'category'  => 'fiction',
+                'slug'      => 'jade-war',
+                'img_name'  => 'jade_war.jpg',
+                'date_read' => '2024-12-16', // guess
+                'wik_url'   => 'https://en.wikipedia.org/wiki/Jade_War',
+                'azn_url'   => 'https://www.amazon.co.uk/Jade-War-Green-Bone-Saga/dp/0316440922',
+                'tags'      => 'fiction,fantasy,crime',
+            ],
+            [
+                'title'     => 'Jade Legacy',
+                'author'    => 'Fonda Lee',
+                'rating'    => 0,
+                'category'  => 'fiction',
+                'slug'      => 'jade-legacy',
+                'img_name'  => 'jade_legacy.jpg',
+                'date_read' => '2024-12-18', // guess
+                'wik_url'   => 'https://en.wikipedia.org/wiki/Jade_Legacy',
+                'azn_url'   => 'https://www.amazon.com/Jade-Legacy-Green-Bone-Saga/dp/0316440973',
+                'tags'      => 'fiction,fantasy,crime',
+            ],
             [
                 'title'     => 'John',
                 'author'    => 'Cynthia Lennon',
@@ -1615,6 +1747,18 @@ class BookDictionary
                 'date_read' => '2019-05-01',
             ],
             [
+                'title'     => 'The Rise of Theodore Roosevelt',
+                'author'    => 'Edmund Morris',
+                'rating'    => 9,
+                'category'  => 'biography',
+                'slug'      => 'rise-of-theodore-roosevelt',
+                'img_name'  => 'rise_of_theodore.jpg',
+                'date_read' => '2024-09-01',
+                'wik_url'   => 'https://en.wikipedia.org/wiki/The_Rise_of_Theodore_Roosevelt',
+                'azn_url'   => 'https://www.amazon.com/Rise-Theodore-Roosevelt-Edmund-Morris/dp/0698107837',
+                'tags'      => 'biography,history,american history',
+            ],
+            [
                 'title'     => 'Romeo and Juliet',
                 'author'    => 'William Shakespeare',
                 'rating'    => 0,
@@ -1937,14 +2081,16 @@ class BookDictionary
                 'date_read' => '2009-05-31',
             ],
             [
-                'title'     => 'The Tipping Point',
-                'subtitle'  => 'How Little Things Can Make a Big Difference',
-                'author'    => 'Malcolm Gladwell',
-                'rating'    => 6,
-                'category'  => 'nonfiction',
-                'slug'      => 'the-tipping-point',
-                'img_name'  => 'tipping.jpg',
-                'date_read' => '2014-10-01',
+                'title'     => 'Theodore Rex',
+                'author'    => 'Edmund Morris',
+                'rating'    => 7,
+                'category'  => 'biography',
+                'slug'      => 'theodore-rex',
+                'img_name'  => 'theodore_rex.jpg',
+                'date_read' => '2024-12-31', // guess
+                'wik_url'   => 'https://en.wikipedia.org/wiki/Theodore_Rex',
+                'azn_url'   => 'https://www.amazon.com/Theodore-Rex-Edmund-Morris/dp/0812966007',
+                'tags'      => 'biography,history,american history',
             ],
             [
                 'title'     => 'Thomas Jefferson',
@@ -1955,6 +2101,28 @@ class BookDictionary
                 'slug'      => 'thomas-jefferson',
                 'img_name'  => 'tj.jpg',
                 'date_read' => '2018-02-01',
+            ],
+            [
+                'title'     => 'The Tipping Point',
+                'subtitle'  => 'How Little Things Can Make a Big Difference',
+                'author'    => 'Malcolm Gladwell',
+                'rating'    => 6,
+                'category'  => 'nonfiction',
+                'slug'      => 'the-tipping-point',
+                'img_name'  => 'tipping.jpg',
+                'date_read' => '2014-10-01',
+            ],
+            [
+                'title'     => 'The Three-Body Problem',
+                'author'    => 'Cixin Liu',
+                'rating'    => 7,
+                'category'  => 'fiction',
+                'slug'      => 'three-body-problem',
+                'img_name'  => 'three_body_problem.jpg',
+                'date_read' => '2023-04-01', // guess
+                'wik_url'   => 'https://en.wikipedia.org/wiki/Three-body_problem',
+                'azn_url'   => 'https://www.amazon.com/Three-Body-Problem-Cixin-Liu/dp/0765382032',
+                'tags'      => 'fiction,sci-fi',
             ],
             [
                 'title'     => 'To Have or To Be',

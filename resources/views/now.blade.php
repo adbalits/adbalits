@@ -55,32 +55,16 @@
     {{ $title }}
     </h1>
     <hr style="width:20%; border-color: rgba(255,255,255,1); margin-left:0;margin-right: auto; margin-bottom: 15px; margin-top: 15px;"/>
-    <h4 style="color: white;">Springtime in Manhattan</h4>
+    <h4 style="color: white;">A Season of Change</h4>
     <!-- <div class="now_img_wrapper" style="background-image:url('{{$url_nyc}}');">
         <img src="{{ $url_nyc }}" class="now_img2" />
     </div> -->
     <p class="ab_text">
-        If you've run into me at any point in the last few months, or if you happened to catch my last update to this page around New Year's, you might've heard me mention that despite many months of working in NYC, living out of subleases and AirBnb's and all that jazz, I still hadn't managed to find a long term lease. That is, until now. 
-    </p>
+        I can't believe it's been almost three years since I've updated this page. 
 
-    <p class="ab_text">
-        It delights me to say that I'm writing this update from my desk at my very own place in the Big Apple at last, on the west side of Manhattan, much to my surprise.
+        As I just wrote on my /about, I've left Amazon to cure burnout and study AI.
 
-        I thought for sure I would end up in a dingy studio in Brooklyn somewhere, but friends of mine were looking at larger places to room together on the island, and so here we are.
-
-        A dream come true!
-    </p>
-
-     <h4 style="color: white;">Work</h4>
-     <p class="ab_text">
-        I'm coming up on my six month "anniversary" at Amazon. I'll say, there was a heck of a learning curve to getting familiar and productive with our systems and processes alone, not to mention the codebases, but I'm finally feeling like the training wheels have come off.
-     </p>
-
-     <h4 style="color: white;">Life</h4>
-     <p class="ab_text">
-        Between the new job, an awful breakup, and the several-month-long apartment hunt, I haven't had much as much time lately for reading and writing and music and studying and all those nice things I like to do in my free time.
-
-        And now that I'm in NYC I might have to hold back the introvert a little longer. 
+        I'll say more on that later.
     </p>
 
      <!-- <div class="now_img_wrapper" style="background-image:url('{{$url_nyc2}}');">
@@ -88,7 +72,7 @@
     </div> -->
 
     <p class="ab_text" style="color:white; color: grey;">
-        Updated: May 3 2022
+        Updated: March 9 2025
     </p>
 
     <hr class="ab_endpage" />
